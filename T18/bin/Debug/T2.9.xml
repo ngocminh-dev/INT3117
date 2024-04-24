@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>T2.9</name>
+    </assembly>
+    <members>
+        <member name="T:T18.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:T18.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the T18Repository repository.
+            </summary>
+        </member>
+        <member name="M:T18.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T18.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T18.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T18.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T18.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T18.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T18.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:T18.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the T18Repository repository.
+            </summary>
+        </member>
+        <member name="M:T18.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T18.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T18.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T18.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T18.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T18.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T18.WrongPassword">
+             <summary>
+            The WrongPassword recording.
+             </summary>
+        </member>
+        <member name="F:T18.WrongPassword.repo">
+            <summary>
+            Holds an instance of the T18Repository repository.
+            </summary>
+        </member>
+        <member name="M:T18.WrongPassword.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T18.WrongPassword.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T18.WrongPassword.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T18.WrongPassword.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T18.WrongPassword.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T18.WrongPassword.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T18.T18Repository">
+            <summary>
+            The class representing the T18Repository element repository.
+            </summary>
+        </member>
+        <member name="P:T18.T18Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the T18Repository element repository.
+            </summary>
+        </member>
+        <member name="M:T18.T18Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:T18.T18Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T18.T18Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:T18.T18Repository.LoginDropboxPersonalMicrosoftE">
+            <summary>
+            The LoginDropboxPersonalMicrosoftE folder.
+            </summary>
+        </member>
+        <member name="T:T18.T18RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:T18.T18RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T18.T18RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:T18.T18RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T18.T18RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:T18.T18RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder">
+            <summary>
+            The LoginDropboxPersonalMicrosoftEAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T18.T18RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginDropboxPersonalMicrosoftE  folder.
+            </summary>
+        </member>
+        <member name="P:T18.T18RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T18.T18RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T18.T18RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder.Continue">
+            <summary>
+            The Continue item.
+            </summary>
+        </member>
+        <member name="P:T18.T18RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder.ContinueInfo">
+            <summary>
+            The Continue item info.
+            </summary>
+        </member>
+        <member name="P:T18.T18RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder.LoginOrRegisterPageContent">
+            <summary>
+            The LoginOrRegisterPageContent folder.
+            </summary>
+        </member>
+        <member name="T:T18.T18RepositoryFolders.LoginOrRegisterPageContentFolder">
+            <summary>
+            The LoginOrRegisterPageContentFolder folder.
+            </summary>
+        </member>
+        <member name="M:T18.T18RepositoryFolders.LoginOrRegisterPageContentFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginOrRegisterPageContent  folder.
+            </summary>
+        </member>
+        <member name="P:T18.T18RepositoryFolders.LoginOrRegisterPageContentFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T18.T18RepositoryFolders.LoginOrRegisterPageContentFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T18.T18RepositoryFolders.LoginOrRegisterPageContentFolder.RememberMe21094937621880594">
+            <summary>
+            The RememberMe21094937621880594 item.
+            </summary>
+        </member>
+        <member name="P:T18.T18RepositoryFolders.LoginOrRegisterPageContentFolder.RememberMe21094937621880594Info">
+            <summary>
+            The RememberMe21094937621880594 item info.
+            </summary>
+        </member>
+        <member name="P:T18.T18RepositoryFolders.LoginOrRegisterPageContentFolder.LoginPassword9476259452408424">
+            <summary>
+            The LoginPassword9476259452408424 item.
+            </summary>
+        </member>
+        <member name="P:T18.T18RepositoryFolders.LoginOrRegisterPageContentFolder.LoginPassword9476259452408424Info">
+            <summary>
+            The LoginPassword9476259452408424 item info.
+            </summary>
+        </member>
+        <member name="P:T18.T18RepositoryFolders.LoginOrRegisterPageContentFolder.SusiEmail0007283273273606117">
+            <summary>
+            The SusiEmail0007283273273606117 item.
+            </summary>
+        </member>
+        <member name="P:T18.T18RepositoryFolders.LoginOrRegisterPageContentFolder.SusiEmail0007283273273606117Info">
+            <summary>
+            The SusiEmail0007283273273606117 item info.
+            </summary>
+        </member>
+        <member name="P:T18.T18RepositoryFolders.LoginOrRegisterPageContentFolder.LogIn">
+            <summary>
+            The LogIn item.
+            </summary>
+        </member>
+        <member name="P:T18.T18RepositoryFolders.LoginOrRegisterPageContentFolder.LogInInfo">
+            <summary>
+            The LogIn item info.
+            </summary>
+        </member>
+        <member name="P:T18.T18RepositoryFolders.LoginOrRegisterPageContentFolder.InvalidEmailOrPassword">
+            <summary>
+            The InvalidEmailOrPassword item.
+            </summary>
+        </member>
+        <member name="P:T18.T18RepositoryFolders.LoginOrRegisterPageContentFolder.InvalidEmailOrPasswordInfo">
+            <summary>
+            The InvalidEmailOrPassword item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

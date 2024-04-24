@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="17.53s"
+		durationms="17528"
+		type="root"
+		rid="93459a4034afabe"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="admin"
+		rxversion="11.3.0.0"
+		host="NGOC-MINH-NITRO"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/24/2024 9:05:42 PM"
+		timestampiso="2024-04-24T14:05:42"
+		endtime="4/24/2024 9:06:00 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="UploadSmt">
+		<detail>
+			UploadSmt
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.461"
+			timeRelativeToTestModuleStartTime="00:04.461"
+			timeWallClock="21:05:46"
+			time="00:04.461"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.UploadOrDrop' at 69;34.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Files - Dropbox - Personal']/container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/?/?/container[@classname='SidebarContentsSplitView']/container[@orientation='None' and @iscontentelement='True']/?/?/container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='maestro-content-portal']//container[@classname='_browseActionBarWrapper_12ja8_4 _actionBarWrapper_cxckl_9 _actionBarWrapperIntersectionOnly_cxckl_36']//button[@name='Upload or Drop']"
+				itempath="container[@classname='SidebarContentsSplitView']/?/?/container[@classname='SidebarContentsSplitView']/container[@orientation='None' and @iscontentelement='True']/?/?/container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='maestro-content-portal']//container[@classname='_browseActionBarWrapper_12ja8_4 _actionBarWrapper_cxckl_9 _actionBarWrapperIntersectionOnly_cxckl_36']//button[@name='Upload or Drop']"
+				fullname="T4_2Repository.FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.UploadOrDrop"
+				id="656e1caeead5441995741d4aeee5c06c"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.997"
+			timeRelativeToTestModuleStartTime="00:06.997"
+			timeWallClock="21:05:49"
+			time="00:06.997"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.File' at 47;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Files - Dropbox - Personal']/container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@classname='dig-Layer']//menuitem[@name='File']"
+				itempath="container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@classname='dig-Layer']//menuitem[@name='File']"
+				fullname="T4_2Repository.FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.File"
+				id="791f53e1a0214f63aded9df5c9c10795"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.927"
+			timeRelativeToTestModuleStartTime="00:09.927"
+			timeWallClock="21:05:52"
+			time="00:09.927"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Open.Tree100' at 26;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open']/element[@class='DUIViewWndClassName']/container/element[1]/?/?/tree[@controlid='100']/?/?/treeitem[@text='Desktop']"
+				itempath="element[@class='DUIViewWndClassName']/container/element[1]/?/?/tree[@controlid='100']/?/?/treeitem[@text='Desktop']"
+				fullname="T4_2Repository.Open.Tree100"
+				id="0477cf29c24547009ee8f7cb9dca67f8"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.931"
+			timeRelativeToTestModuleStartTime="00:10.931"
+			timeWallClock="21:05:53"
+			time="00:10.931"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Open.ListItem2' at 43;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']/text[@automationid='System.ItemNameDisplay' and @uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']"
+				itempath="element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']/text[@automationid='System.ItemNameDisplay' and @uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']"
+				fullname="T4_2Repository.Open.ListItem2"
+				id="def3edbcc59f46e6b1ba14e2f1d3971b"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.017"
+			timeRelativeToTestModuleStartTime="00:12.017"
+			timeWallClock="21:05:54"
+			time="00:12.017"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Open.ButtonOpen' at 38;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open']/button[@text='&amp;Open']"
+				itempath="button[@text='&amp;Open']"
+				fullname="T4_2Repository.Open.ButtonOpen"
+				id="98fceae1461742e095e1539975716f3d"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.475"
+			timeRelativeToTestModuleStartTime="00:12.475"
+			timeWallClock="21:05:54"
+			time="00:12.475"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Uploaded to') on item 'FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.UploadedTo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Files - Dropbox - Personal']/container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/?/?/container[@classname='SidebarContentsSplitView']//container[@automationid>'']/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[5]/?/?/container[@classname='_bottom-drawer-body_1a7qa_56']//text[@name='Uploaded to']"
+				itempath="container[@classname='SidebarContentsSplitView']/?/?/container[@classname='SidebarContentsSplitView']//container[@automationid>'']/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[5]/?/?/container[@classname='_bottom-drawer-body_1a7qa_56']//text[@name='Uploaded to']"
+				fullname="T4_2Repository.FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.UploadedTo"
+				id="bfd6cb8856014a9ea94072a393be9ff2"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.421"
+			timeRelativeToTestModuleStartTime="00:17.421"
+			timeWallClock="21:05:59"
+			time="00:17.421"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'T4_2Repository.FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.UploadedTo' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Files - Dropbox - Personal']/container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/?/?/container[@classname='SidebarContentsSplitView']//container[@automationid>'']/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[5]/?/?/container[@classname='_bottom-drawer-body_1a7qa_56']//text[@name='Uploaded to']"
+				itempath="container[@classname='SidebarContentsSplitView']/?/?/container[@classname='SidebarContentsSplitView']//container[@automationid>'']/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[5]/?/?/container[@classname='_bottom-drawer-body_1a7qa_56']//text[@name='Uploaded to']"
+				fullname="T4_2Repository.FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.UploadedTo"
+				id="bfd6cb8856014a9ea94072a393be9ff2"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+				codeline="103"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+	</activity>
+</report>

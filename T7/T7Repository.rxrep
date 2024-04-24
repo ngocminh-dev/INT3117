@@ -1,0 +1,120 @@
+﻿<repository
+id="b20d96bc-ad38-4cc2-90ab-52af24e184c0"
+name="T7Repository">
+	<codegen
+	classname="T7Repository"
+	namespace="T7">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="bbe44d9e-f611-440c-8fc6-2baab7fb867f"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="47adacf9-db03-485e-9f89-4ff1997c933e"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='www.dropbox.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="031f97fa-a9af-4a9e-a9c2-1c6e7bdcf08b"
+		isrooted="True"
+		name="RegisterDropboxPersonalMicrosof"
+		refpath="/form[@title='Register - Dropbox - Personal - Microsoft​ Edge']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+			capname="button"
+			id="26616112-82b6-4541-82d1-c3d8dfaf2492"
+			name="ContinueWithApple"
+			refimgid="4f94dd15-5391-4381-9f63-2e5c90d80b2a"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'Register - Dropbox - Personal']/container[@name&gt;'Register - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Register - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']/?/?/button[@name='Continue with Apple']
+			</item>
+			<basepath>
+				/form[@title&gt;'Register - Dropbox - Personal']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK8SURBVDhPfZJrSFNxGMbP1NDmZVsxiPpgBH5J
+rVjehgtMbRCaSy0TaWl0oSBM8pLYxW5opmtIqdMPKRIUYVcixDDPNqc43c25vG0JoSE1ULZ5STef
+zrZjkpU/eD8czvv8/s+5EP9jl7SNjJBPIEI+jshuE3ZWVr+mb21MNGkDj/yBPfKvVNiCcMUIIpRG
+7O3RIk5DIsH4DvTq38SSc4giZ8CTT1OCLwiXj2C3wkTNINVCi5h+ORKHXiLN3ISAbexQOuaFTy4g
+lrRTAisl+IZIxTh1ujtsoAUaxKg7kTz0DCJzHcRT5WtN4skl8Ml5bK/sQsjl5+AUvwInvxVhb7S0
+wEAJBhCr7kCysRWZlirkThXiovWMV8Lv/InAwg8IvqECu0KLLQ8Gwa3Rg3u/F9yytx7BPpUKcer3
+OGRoRPrYPeRO5uPCdA4InkytCyiRg3lLh+DKEbCqx8GRWrC11kJJdA7mwVNF3PJ28FTt4Pe9gFAv
+RfpwCXLM53F2MhtEaNMk/K/rsfnuMJgVowiqGgOrxgxmQpnDU49mv7INgr5GCDV3kGYsQvZoHvIm
+joHwKzNg000T/G8Pw7dBDd8nKvhfaoFfWFIxnfUQo2hAvEqCpL5SpGrOIct0AuKxIyAYpfpln4ca
+MJq7QTT3wGp3wI3N4XC/IIY37v7EEggU5UjsKUBKvxgZOhEyB4TzBBElLmA0KxEuOokFhw1OpxMr
+KyuecVFD5wl+1zUI5EVIUp7G4d7jiK6Oov/Mq4/IHU+VsNntdNBTwIP72ru0EbJPi0T9R7jo0HpC
+MpsQlCKZobd/w0mR0HJhVoFvSzf17HOeE9fjFoRkyMA6Wg+W6DHYabVgp0oRLLii8woofFqUIGQd
+WHZ6e6yKFpec/xQEHShcC6/y+bvVE3K5XJidncXM3BIC0+soQeMfAnqdhiB+AeinCfZA3FOBAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="33485f1c-7cb6-469d-9c5f-9d902537556b"
+		isrooted="True"
+		name="SignInWithAppleIDPersonalMicro"
+		refpath="/form[@title='Sign in with Apple ID - Personal - Microsoft​ Edge']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,uiautomation,uiautomationscrollitem"
+			capname="text"
+			id="fe072800-9f01-4b73-a303-2469996946d0"
+			name="UseYourAppleIDToSignInToDropbox"
+			refimgid="a3642a66-0b7c-4b03-98ed-9ac40a20ec37"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'Sign in with Apple&#160;ID - Personal']/container[@name&gt;'Sign in with Apple&#160;ID - Microsoft']//container/?/?/container[@classname='tk-body']/container[@automationid='content']/container[@automationid='signin']//container[@automationid='step']/container[@automationid='stepEl']/container[@automationid='signin']/text[@name&gt;'Use your Apple&#160;ID to sign']/text[@name&gt;'Use your Apple&#160;ID to sign']
+			</item>
+			<basepath>
+				/form[@title&gt;'Sign in with Apple&#160;ID - Personal']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEvSURBVDhPYyAG8PDwiDo6OlZycXFJQIWIB7y8
+vMJFRUXX2trafvPz8wtAhYkHbm5ubR0dHf/NzMySoUJEAX6gs0VADDU1NQ95eXlLIJMP6AVJkBhe
+YGdnV1ZXV/emoaHhk6enZ4ekpKSRra1tSX19/bumpqZvYWFhi0DegipHBbq6uqEg5+LDzc3NP2Rl
+ZU2gWlBBWlraAWyakLGhoWEsVDkmqK6ufoZNEwyDvMDJySkNVY4JgAa8xKYRhkFRKS0trQdVjgny
+8vLOYdOIjGNjY9cDlfJAdKABV1fXRmya0HFUVNRKqBZUAEqqNTU1r7FpQsZ6enoRUC2YQF9fPwxZ
+MTAZ3wAG3mcYPzo6ehVUKW4AsgEIlqqqqnqB+MA8oBQYGDgTlKyBXE6Q2GABDAwAIx3iUqzAZKMA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

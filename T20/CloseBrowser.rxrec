@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="1391e655-75b6-4cd9-a882-ba00d22a5117"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="T20">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="1d087d9b-2f62-44d0-9760-89236d70d7bc">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1922df22-dfc9-4559-8fea-a0878dd235af"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title&gt;'Search results - Dropbox -']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="ded12ba6-0361-4f69-ac26-2dbbeed27c49"
+	name="T20Repository"
+	relativepath="T20Repository.rxrep">
+		<codegen
+		classname="T20Repository"
+		namespace="T20">
+		</codegen>
+		<rootfolder
+		id="6a80d9c0-0099-4caa-a2fa-8439624ebb78"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

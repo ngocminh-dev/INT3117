@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="042d30eb-a88d-4c1d-b433-b7a2e2b89e8b"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="T4._">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="EdgeChromium"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.dropbox.com/home
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="9626d3f8-2a8a-4fa3-9c99-a393b7a01d51"
+	name="T4_2Repository"
+	relativepath="T4.2Repository.rxrep">
+		<codegen
+		classname="T4_2Repository"
+		namespace="T4._">
+		</codegen>
+		<rootfolder
+		id="a0d21317-8ebb-4bed-9e29-66a9ed47224d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

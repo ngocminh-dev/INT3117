@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="11.15s"
+		durationms="11153"
+		type="root"
+		rid="d6620ff15815b"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="admin"
+		rxversion="11.3.0.0"
+		host="NGOC-MINH-NITRO"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/23/2024 12:49:39 AM"
+		timestampiso="2024-04-22T17:49:39"
+		endtime="4/23/2024 12:49:50 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.462"
+			timeRelativeToTestModuleStartTime="00:03.462"
+			timeWallClock="00:49:43"
+			time="00:03.462"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginDropboxPersonalMicrosoftE.LoginOrRegisterPageContent.SusiEmail37900476866123745' at 158;26.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Login - Dropbox - Personal']/container[@name>'Login - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container[@automationid='226026432']/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//container[@classname='_field-input-wrapper_4srl7_50']/text[@automationname='susi_email']"
+				itempath=".//container[@classname='_field-input-wrapper_4srl7_50']/text[@automationname='susi_email']"
+				fullname="MyTest1Repository.LoginDropboxPersonalMicrosoftE.LoginOrRegisterPageContent.SusiEmail37900476866123745"
+				id="cca1387ae02f4ac4bbe1613e30682cb8"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.154"
+			timeRelativeToTestModuleStartTime="00:11.154"
+			timeWallClock="00:49:50"
+			time="00:11.154"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

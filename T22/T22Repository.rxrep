@@ -1,0 +1,97 @@
+﻿<repository
+id="fcbf0c5d-9d8e-420e-a895-6a602e781495"
+name="T22Repository">
+	<codegen
+	classname="T22Repository"
+	namespace="T22">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="e9394b56-c333-44c2-b08d-5bab9e931302"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="3efe49bb-3040-450e-a91e-271bb32f7266"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='www.dropbox.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="489ea2ad-7df0-4f33-b6d4-421dc04cb09d"
+		isrooted="True"
+		name="FilesDropboxPersonalMicrosoftE"
+		refpath="/form[@title='Files - Dropbox - Personal - Microsoft​ Edge']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationscrollitem"
+			capname="button"
+			id="38c44402-6be1-49b1-840f-a363dfbdf04f"
+			name="UploadOrDrop"
+			refimgid="ee54f5e2-2974-4336-bb90-42ab002e16cc"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'Files - Dropbox - Personal']/container[@name&gt;'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@orientation='None' and @iscontentelement='True']/?/?/container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='maestro-content-portal']//container[@classname='_browseActionBarWrapper_12ja8_4 _actionBarWrapper_cxckl_9 _actionBarWrapperIntersectionOnly_cxckl_36']//button[@name='Upload or Drop']
+			</item>
+			<item
+			addcaps="contextmenu,uiautomation,uiautomationscrollitem"
+			capname="contextmenu"
+			id="a28155e5-0ae3-49db-b319-7c08c964f81c"
+			name="DigMenuContentDigMenuContentBotto"
+			refimgid="790bbffa-87a2-4a4b-a96d-fd1e95c73380"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'Files - Dropbox - Personal']/container[@name&gt;'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@classname='dig-Layer']/?/?/contextmenu[@classname='dig-Menu-content dig-Menu-content--bottom-start']
+			</item>
+			<basepath>
+				/form[@title&gt;'Files - Dropbox - Personal']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK8SURBVDhPfZJrSFNxGMbP1NDmZVsxiPpgBH5J
+rVjehgtMbRCaSy0TaWl0oSBM8pLYxW5opmtIqdMPKRIUYVcixDDPNqc43c25vG0JoSE1ULZ5STef
+zrZjkpU/eD8czvv8/s+5EP9jl7SNjJBPIEI+jshuE3ZWVr+mb21MNGkDj/yBPfKvVNiCcMUIIpRG
+7O3RIk5DIsH4DvTq38SSc4giZ8CTT1OCLwiXj2C3wkTNINVCi5h+ORKHXiLN3ISAbexQOuaFTy4g
+lrRTAisl+IZIxTh1ujtsoAUaxKg7kTz0DCJzHcRT5WtN4skl8Ml5bK/sQsjl5+AUvwInvxVhb7S0
+wEAJBhCr7kCysRWZlirkThXiovWMV8Lv/InAwg8IvqECu0KLLQ8Gwa3Rg3u/F9yytx7BPpUKcer3
+OGRoRPrYPeRO5uPCdA4InkytCyiRg3lLh+DKEbCqx8GRWrC11kJJdA7mwVNF3PJ28FTt4Pe9gFAv
+RfpwCXLM53F2MhtEaNMk/K/rsfnuMJgVowiqGgOrxgxmQpnDU49mv7INgr5GCDV3kGYsQvZoHvIm
+joHwKzNg000T/G8Pw7dBDd8nKvhfaoFfWFIxnfUQo2hAvEqCpL5SpGrOIct0AuKxIyAYpfpln4ca
+MJq7QTT3wGp3wI3N4XC/IIY37v7EEggU5UjsKUBKvxgZOhEyB4TzBBElLmA0KxEuOokFhw1OpxMr
+KyuecVFD5wl+1zUI5EVIUp7G4d7jiK6Oov/Mq4/IHU+VsNntdNBTwIP72ru0EbJPi0T9R7jo0HpC
+MpsQlCKZobd/w0mR0HJhVoFvSzf17HOeE9fjFoRkyMA6Wg+W6DHYabVgp0oRLLii8woofFqUIGQd
+WHZ6e6yKFpec/xQEHShcC6/y+bvVE3K5XJidncXM3BIC0+soQeMfAnqdhiB+AeinCfZA3FOBAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5aa30336-bb11-4b0a-9677-272c5935fc1f"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Login"
+	namespace="MyTest1">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="31;12"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f62bcbbc-efaa-4c02-88d7-bd8dd9f4af26"
+		sx="1439"
+		sy="661"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e38ae336-4d61-430e-83d7-c765f0d184ee"
+			sourcename="Recorder">
+				<element
+				capabilities="uiautomation, uiautomationscrollitem"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="1408,649,49,21"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="backgroundcolor"
+					type="System.String">
+						Log in
+					</attribute>
+					<attribute
+					name="caption"
+					type="System.String">
+						Log in
+					</attribute>
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						103
+					</attribute>
+					<attribute
+					name="selectiontext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Log in
+					</attribute>
+					<attribute
+					name="textcolor"
+					type="System.String">
+						Log in
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						Chrome
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Log in
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAComWrapper, Version=1.1.0.14, Culture=neutral, PublicKeyToken=78cbcf77433a85e5">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						5780
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'Login - Dropbox - Personal']/container[@name&gt;'Login - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container[@automationid='72964976']/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//button[@name='Log in']/?/?/text[@name='Log in']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="cb5889f9-2246-4a89-9a0e-ea2e400584f7">
+				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
+yij2k+7Dkj2P/9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="5956f0bf-4798-4720-bd2e-e494ee1fd6fd"
+	name="MyTest1Repository"
+	relativepath="MyTest1Repository.rxrep">
+		<codegen
+		classname="MyTest1Repository"
+		namespace="MyTest1">
+		</codegen>
+		<rootfolder
+		id="6cbc1812-d83a-43af-8c6c-bb1ca5bfbb90"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Login.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

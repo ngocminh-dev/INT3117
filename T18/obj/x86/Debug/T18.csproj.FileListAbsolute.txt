@@ -1,0 +1,11 @@
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T18\bin\Debug\T18.rxtmg
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T18\bin\Debug\T18.rxtst
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T18\bin\Debug\T18.exe.config
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T18\bin\Debug\T18.xml
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T18\bin\Debug\T18.exe
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T18\bin\Debug\T18.pdb
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T18\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T18\obj\x86\Debug\T18.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T18\obj\x86\Debug\T18.csproj.CopyComplete
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T18\obj\x86\Debug\T18.exe
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T18\obj\x86\Debug\T18.pdb

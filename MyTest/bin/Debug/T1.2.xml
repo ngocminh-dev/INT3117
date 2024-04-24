@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>T1.2</name>
+    </assembly>
+    <members>
+        <member name="T:MyTest.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepository">
+            <summary>
+            The class representing the MyTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MyTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.RegisterDropboxPersonalMicrosof">
+            <summary>
+            The RegisterDropboxPersonalMicrosof folder.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder">
+            <summary>
+            The RegisterDropboxPersonalMicrosofAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RegisterDropboxPersonalMicrosof  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.LoginOrRegisterPageContent">
+            <summary>
+            The LoginOrRegisterPageContent folder.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.LoginOrRegisterPageContentFolder">
+            <summary>
+            The LoginOrRegisterPageContentFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.LoginOrRegisterPageContentFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginOrRegisterPageContent  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.LoginOrRegisterPageContentFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.LoginOrRegisterPageContentFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.LoginOrRegisterPageContentFolder.Continue">
+            <summary>
+            The Continue item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.LoginOrRegisterPageContentFolder.ContinueInfo">
+            <summary>
+            The Continue item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.LoginOrRegisterPageContentFolder.SusiEmail12233782113174296InputError">
+            <summary>
+            The SusiEmail12233782113174296InputError item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.LoginOrRegisterPageContentFolder.SusiEmail12233782113174296InputErrorInfo">
+            <summary>
+            The SusiEmail12233782113174296InputError item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.LoginOrRegisterPageContentFolder.SusiEmail12233782113174296">
+            <summary>
+            The SusiEmail12233782113174296 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.LoginOrRegisterPageContentFolder.SusiEmail12233782113174296Info">
+            <summary>
+            The SusiEmail12233782113174296 item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.EmailFormat">
+             <summary>
+            The EmailFormat recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.EmailFormat.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.EmailFormat.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.EmailFormat.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.EmailFormat.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.EmailFormat.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.EmailFormat.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.EmailFormat.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,11 @@
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T15\bin\Debug\T15.rxtmg
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T15\bin\Debug\T15.rxtst
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T15\bin\Debug\T15.exe.config
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T15\bin\Debug\T15.xml
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T15\bin\Debug\T15.exe
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T15\bin\Debug\T15.pdb
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T15\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T15\obj\x86\Debug\T15.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T15\obj\x86\Debug\T15.csproj.CopyComplete
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T15\obj\x86\Debug\T15.exe
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T15\obj\x86\Debug\T15.pdb

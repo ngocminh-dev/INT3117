@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ad6eb192-61d0-488f-918b-5fb3271a2ec9"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="GoogleLogin"
+	namespace="T16">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="48;5"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="829d2493-7e18-4f88-a33b-944be8be1a7b"
+		sx="1419"
+		sy="327"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="dbda4339-68de-4580-9e96-dc57db30248e"
+			sourcename="Recorder">
+				<element
+				capabilities="uiautomation, uiautomationscrollitem"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="1"
+				prefcap="text"
+				rect="1371,322,149,18"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="backgroundcolor"
+					type="System.String">
+						Continue with Google
+					</attribute>
+					<attribute
+					name="caption"
+					type="System.String">
+						Continue with Google
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Continue with Google
+					</attribute>
+					<attribute
+					name="textcolor"
+					type="System.String">
+						Continue with Google
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						Chrome
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Continue with Google
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAComWrapper, Version=1.1.0.14, Culture=neutral, PublicKeyToken=78cbcf77433a85e5">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						9512
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'Login - Dropbox - Personal']/container[@name&gt;'Login - Dropbox - Microsoft']//container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container[@automationid='32352560']/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//container[@automationid='sign-in-with-google-button-container--login']//text[@automationid='gsi_713531_792491']/text[@name='Sign In - Google Accounts']/?/?/container[@automationid='container']/button[@name='Continue with Google']/?/?/text[@name='Continue with Google']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="ecaf3cc9-c0ae-470f-98e6-e521273e0834">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA6ATIDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKbj
+3P50Y9z+dMB1FNx7n86Me5/OgB1FNx7n86Me5/OgB1FNx7n86Me5/OgB1FNx7n86Me5/OgB1FNx7
+n86Me5/OgB1FNx7n86Me5/OgB1FNx7n86Me5/OgB1FNx7n86Me5/OgB1FNx7n86Me5/OgB1FNx7n
+86Me5/OgB1FNx7n86Me5/OgB1FNx7n86Me5/OgB1FNx7n86Me5/OgB1FNx7n86Me5/OgB1FNx7n8
+6Me5/OgB1FNx7n86Me5/OgB1FNx7n86Me5/OgB1FNx7n86Me5/OgB1FNx7n86KAFooooAKKKKACi
+iigAooooAKzNXaXz7SOKV4vMYqSpI7itOszVP+P2w/66f1WonsbYf+Ivn+Qf2bcj/mJS/r/jR/Zl
+z/0Epv1/xqSGGO6nuGuFEjI5RVboox6e9PYtG8VralVBUnc2WwB2HPvRyIPrFTv+C/yIP7Muf+gl
+N+v+NH9mXP8A0Epv1/xp4u7h3SFfLEhkaNmwSOBnI5pkk1y6xjzEVkuPLJCnDenf9KORB9Yqf0kH
+9m3P/QSm/X/Gj+zLn/oJTfr/AI06aZ4Jrlo0TzB5YyQec8UlxJP89vLIM7oiHjyhwzgEdaORB9Yq
+f0kJ/Zlz/wBBKb9f8aP7Muf+glN+v+NQLqi2YeKRnbZ5gUuGJJDkAbvTGKt2N5LcOP8AlpEykiRY
+yoB9M96ORB9Yqd/wRH/Zlz/0Epv1/wAaP7Nuf+glN+v+NS3N3NFLLEiqZDt8oEdc9c/kaimuvtFv
+IwRGiUR8HP3iRn8qORB9Yqf0kH9mXP8A0Epv1/xo/sy5/wCglN+v+NPYzG6vAZAYxEDtwfQ+9FpL
+PGLRJChSVMAAcrgZ696ORB9Yqf0kM/s25/6CU36/40f2bc/9BKX9f8amnVZ9QSGbmMR7wnZjn9cV
+D9oWz81UtDExXfjcNvXHQHjrRyIPrFTv+CD+zLn/AKCU36/40f2Zc/8AQSm/X/GpmuZrZys5SQGN
+nBQYxjtSC4uIjC0xjdZeyAgqcZ9eaORB9Yqf0kRf2Zc/9BKb9f8AGj+zLn/oJTfr/jT1ubnZbysY
+tk7gbQDlQffPNRR3LwxJHEDukkk52FsAH0FHIg+sVO/4L/Igv4LmygEn26Z8ttxkjsff2rcrF1OW
+SXTFMqFWE2OVK5GDzg1tURVm0VVk5U4t+f6BRRRVnOFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAVl6sQt5YsxAAkySe3K1qVDcWkF1t89N23OOSP5VMldWNKU1Cd2QSmwmfe00QfGNyy7S
+R+BoI04xoglhUJ93bLgj8Qc0f2VZf88P/H2/xo/sqy/54f8Aj7f40veK/c93+H+YqNp8ezZLCPLJ
+K/vB1PXvzQ5090ZWmiwzbz+97+vWk/sqy/54f+Pt/jR/ZVl/zw/8fb/Gj3gtR7v8P8xS2ntuzNEd
+23P73rjp3qvNcRTsHjhk+aZEEvBVtsg9D9etT/2VZf8APD/x9v8AGmNEumOJYEP2Vv8AXKCTt9HA
+/n+FUr9SZ+zt7tyV7DfE6+YPmSZen99s/pUVuLO2vLokxRN5gABYDA2KeB9auNdW6w+aZoxHjO7c
+MVQtrSC+827niz5z5jySDtAAHHvjP40a9CY8t/e2LLS2LTJM00JkQEKfMHGfxpgOnrE0QlhCM24j
+zOp6+tH9lWX/ADw/8fb/ABo/sqy/54f+Pt/jU+8aWo93+H+YrtYPKZGmi3ldpIlxkfnThLYjy8TQ
+/uhhP3g44x60z+yrL/nh/wCPt/jR/ZVl/wA8P/H2/wAaPeC1Hu/w/wAx00ljOoEs0JwcgiQAj6EG
+modPRXUSwkP94tICT+JNH9lWX/PD/wAfb/Gj+yrL/nh/4+3+NHvB+57v8P8AMIjp8RJWaIkjblpd
+3HpyelEX9nwuHSaLIGFzLnb9Mnij+yrL/nh/4+3+NH9lWX/PD/x9v8aPeC1Hu/w/zKkccHnxs0to
+gR92UlPP0U8Crbf2eyBfOiADFgRLggnrzmj+yrL/AJ4f+Pt/jR/ZVl/zw/8AH2/xo94P3Pd/h/mU
+tWa2FgkdvJG2JMkK+49Dya2qpf2VZf8APD/x9v8AGrtNJ3uwqSg4qMelwoooqjEKKKKACiiigAoo
+ooAKKKKADavoPyo2r6D8qWikAm1fQflRtX0H5UtFACbV9B+VG1fQflS0UAJtX0H5UbV9B+VLRQAm
+1fQflRtX0H5UtFACbV9B+VG1fQflS0UAJtX0H5UbV9B+VLRQAm1fQflRtX0H5UtFAEC2NmrBltYA
+QcgiMcVNtX0H5UtFACbV9B+VG1fQflS0UAJtX0H5UbV9B+VLRQAm1fQflRtX0H5UtFACbV9B+VG1
+fQflS0UAJtX0H5UbV9B+VLRQAm1fQflRtX0H5UtFACbV9B+VG1fQflS0UAJtX0H5UbV9B+VLRQAm
+1fQflRtX0H5UtFACbV9B+VG1fQflS0UAJtX0H5UUtFAH/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b59214f5-4b5e-42e5-b84f-6e5d70939427"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2cbe3d2a-4e81-4685-88dc-4d0f9f3f46a9"
+			sourcename="ElementTree">
+				<element
+				capabilities="uiautomation, uiautomationscrollitem"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="774,344,185,20"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="backgroundcolor"
+					type="System.String">
+						Đăng nhập bằng Google
+					</attribute>
+					<attribute
+					name="caption"
+					type="System.String">
+						Đăng nhập bằng Google
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Đăng nhập bằng Google
+					</attribute>
+					<attribute
+					name="textcolor"
+					type="System.String">
+						Đăng nhập bằng Google
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						Chrome
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Đăng nhập bằng Google
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAComWrapper, Version=1.1.0.14, Culture=neutral, PublicKeyToken=78cbcf77433a85e5">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						9512
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'Sign In - Google Accounts']/container[@name&gt;'Sign In - Google Accounts']//container[@classname='SidebarContentsSplitView']//container[@automationid='167254352']/?/?/container[@automationid='container']/container[@automationid='main_dialog']/container[@automationid='banner']/container[@automationid='dialog_banner']/text[@name='&#272;&#259;ng nh&#226;&#803;p b&#259;&#768;ng Google']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="1b09a812-abb2-46c7-9fc2-2ed6c25c096e">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABLAWgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDeooor
+IxENRyfcb6VIajl+430pgctRXU/2XZf8+6/maP7Lsv8An3X8zWhscxHLJEcxSMhPdTipDd3LAhri
+Ug9QXNdH/Zdl/wA+6/maP7Lsv+fdfzNAHLUV1P8AZdl/z7r+Zo/suy/591/M0ActRXU/2XZf8+6/
+maP7Lsv+fdfzNAHL7js254Jzikrqf7Lsv+fdfzNH9l2X/Puv5mgDlsnGMnHXFBJPU5rqf7Lsv+fd
+fzNH9l2X/Puv5mgDlqK6n+y7L/n3X8zR/Zdl/wA+6/maAOWorqf7Lsv+fdfzNH9l2X/Puv5mgDlq
+K6n+y7L/AJ91/M0f2XZf8+6/maAOWqVbmVYyilVBGCQgBI+uM10n9l2X/Puv5mj+y7L/AJ91/M0A
+ctRXU/2XZf8APuv5mj+y7L/n3X8zQBzcdzLEuIyq9fmCDd+eM1FXU/2XZf8APuv5mj+y7L/n3X8z
+QBy1FdT/AGXZf8+6/maP7Lsv+fdfzNAHLUV1P9l2X/Puv5mj+y7L/n3X8zQByxJOMknHSnmVym3g
+A9cKBn8q6b+y7L/n3X8zR/Zdl/z7r+ZoA5agkk5JJrqf7Lsv+fdfzNH9l2X/AD7r+ZoA5aiup/su
+y/591/M0f2XZf8+6/maAOWorqf7Lsv8An3X8zR/Zdl/z7r+ZoA5aiup/suy/591/M0f2XZf8+6/m
+aAOWorqf7Lsv+fdfzNH9l2X/AD7r+ZoA5aiup/suy/591/M0UAS0VX+xRf37j/wIk/xpPsUX9+f/
+AMCJP8azMiwajk+430qP7FF/fn/8CJP8ajeziCk7p+n/AD3f/GgDTooorQ1Ciiq93ex2ow2Wc9FF
+Juw1FydkWKKz4tUDyqjwMu7oQc/pWhQmnsOUJR3CiszxB/x4p/10H8jULabpquUa6cMDggsP8KV3
+eyRk5O9kjZorKfRrKOPe0soUd8j/AAoj0azlTeksrKehyP8ACi8uwXl2NWisz+wrX/npN+Y/wo/s
+K1/56TfmP8KLy7BeXY06KzP7Ctf+ek35j/CkbRLRFLNLKABkncP8KLy7BeXY1KKyxodoQCJJiD0+
+Yf4UwaTYmYxCaXeO2R/hReXYLy7GvRWZ/YVr/wA9JvzH+FIdDtFBJkmAHJ+Yf4UXl2C8uxqUVlro
+lo6hlllIIyDuH+FRNpVmtx5RkkGR13rnPpjFF5dgvLsbNFZn9hWv/PSb8x/hR/YVr/z0m/Mf4UXl
+2C8uxp0Vmf2Fa/8APSb8x/hUU2lWEAHmzyLnplhn+VF5dgvLsbFFZMWj2Uybo5pWHqGH+FP/ALCt
+f+ek35j/AAovLsF5djTorM/sK1/56TfmP8KP7Ctf+ek35j/Ci8uwXl2NOisptGs1ZVaWUFuANw5/
+Snf2Fa/89JvzH+FF5dgvLsadFY+nQLba1PChJVY+C3X+E1sU07ji7oKKKKZQUUUUAFFFFABRRRQA
+UUUUAQ0UUVkYiGopPuN9KlNRSfcb6UwLlFFFaGwVSjijkv2dwC4zgGrtUruzkaYXFu22QdvWonFt
+p9h87inYW5uZ4pG22+5F5DH6VLZztcQ+YyheccVUaG/uB5cxCJ3PH9KvwxrDEsa9FFbc0XHbUzi2
+2Z/iD/jxT/roP5Gn2ays84kWIx+a2/OfTt7UzxB/x4p/10H8jVtrC2dyzR5LHJ+Y8n86yXxMF8TK
+sMhW0CRu4DSsse0Akr7ZoNxOsE6hmDRsoUuBnn1xxV6S3ikRUZcBeVwcY+mKaLSAKyhOGILfMeSK
+osgaSa2nZWkMoMRfBAGCPpUbPPHBDN9pLGRlyuBjn0q80Ss/mYG8KVBNUEsnMiA28ce1gxcOSD9B
+2oAtXzyJEnlNtZpFXOM9arzGSP7RC8pkUwlwWAyO1XpI0kADjO0hh9RTXgjdmZlyWXYee1AFSMzQ
+ta7piyyDDKQMDjPFR/aJQUmR5WRpNuWVQpGe3etAwxnZlf8AV/d56VAtlH5xzGPLGGT5jwfp0FPq
+BGpnme4IuSgjchQAP19qmSUzad5jDBaMk/lUa2KM8zTLne5IwxGR71b2Ls2Y+XGMD0pdA6mdG00F
+lDOJtw+UeXgYx0x9aS5mcNLPG0jeU2Adq7R6j1NW0srdGVlj+70GSQPwpXsrdyxZCdxyRuOCfXFA
+EOZp7qVFmMaKqkYA6mmRzzXAt4/M8supZmAGTjjirqxIrs6jDMACc+lV7i2HlRpFCkiIT8pYg/ga
+AFtHkM9xHJJ5gjIAOAO1Nt8G6umIBmDYUH+7jin2VuYBIzKqFyPlU5wB71JNbQzMGkT5h0YEg/pQ
+BUku5IRMvkIjqoYlWzyTjnipMzW88IaYyiQ4IIHXHUVPHbQxxtGsY2t94HnP1pIrSCF96J8wGASS
+cfTNAFTzJ2tGvBPgjJEeBtxnpUoaW4uJFWUwrGqkAAZJIzzmpTZW5k3mPknJGTjP06VFdwNJMH+z
+pKMYHzlSPr6igCCOV5TZvI25vMfkUqTXUsYnQSEluF+XZjPTrmrVtaLHFEHALxkkEdATSmzty+/Z
+zndjJxn1x0oAp2//ACMNz/1zH/stadZkH/Iw3P8A1zH/ALLWnUx6kQ6hRRRVFhRRRQAUUUUAFFFF
+ABRRRQBDRRRWRiIail+430qU1FL9xvpTAuUUUVobBRRRQAUUUUAQXlpHeRCOQsAG3fKf8+tU/wCw
+rX/npN+Y/wAK06KTinuS4p7mZ/YVr/z0m/Mf4Uf2Fa/89JvzH+FadFLkj2FyR7GZ/YVr/wA9JvzH
++FH9hWv/AD0m/Mf4Vp0Uckewckexmf2Fa/8APSb8x/hR/YVr/wA9JvzH+FadFHJHsHJHsZn9hWv/
+AD0m/Mf4Uf2Fa/8APSb8x/hWnRRyR7ByR7GZ/YVr/wA9JvzH+FH9hWv/AD0m/Mf4Vp0Uckewckex
+mf2Fa/8APSb8x/hR/YVr/wA9JvzH+FadFHJHsHJHsZn9hWv/AD0m/Mf4Uf2Fa/8APSb8x/hWnRRy
+R7ByR7GZ/YVr/wA9JvzH+FH9hWv/AD0m/Mf4Vp0Uckewckexmf2Fa/8APSb8x/hR/YVr/wA9JvzH
++FadFHJHsHJHsZn9hWv/AD0m/Mf4Uf2Fa/8APSb8x/hWnRRyR7ByR7GZ/YVr/wA9JvzH+FH9hWv/
+AD0m/Mf4Vp0UckewckexTs9Nhs5TJG0hJXb8xH+HtVyiimklsUklsFFFFMYUUUUAFFFFABRRRQAU
+UUUAQ0UUVkYiGopfuN9KlNRS/cb6UwLe1f7o/Kjav90flS0VobCbV/uj8qNq/wB0flS0UAJtX+6P
+yo2r/dH5UtFACbV/uj8qNq/3R+VLRQAm1f7o/Kjav90flS0UAJtX+6Pyo2r/AHR+VLRQAm1f7o/K
+jav90flS0UAJtX+6Pyo2r/dH5UtFACbV/uj8qNq/3R+VLRQAm1f7o/Kjav8AdH5UtFACbV/uj8qN
+q/3R+VLRQAm1f7o/Kjav90flS0UAJtX+6Pyo2r/dH5UtFACbV/uj8qNq/wB0flS0UAJtX+6Pyo2r
+/dH5UtFACbV/uj8qNq/3R+VLRQAm1f7o/Kjav90flS0UAJtX+6Pyo2r/AHR+VLRQAm1f7o/Kjav9
+0flS0UAJtX+6Pyo2r/dH5UtFACbV/uj8qKWigD//2Q==
+			</helperscreenshot>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Đăng nhập bằng Google
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="b41eaa44-020c-4492-a254-b3334225b822"
+	name="T16Repository"
+	relativepath="T16Repository.rxrep">
+		<codegen
+		classname="T16Repository"
+		namespace="T16">
+		</codegen>
+		<rootfolder
+		id="85de23aa-169f-47c4-bb03-5d1aed409c17"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		GoogleLogin.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,141 @@
+﻿<repository
+id="22998273-4106-43df-83b1-19e745029d00"
+name="T8Repository">
+	<codegen
+	classname="T8Repository"
+	namespace="T8">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="e8803486-3e8b-484f-a430-7365883beabf"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="942ba1ec-8ef1-497b-a222-185d28c72c6b"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='www.dropbox.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="e0ab6d58-6f99-4ec9-837f-8ef8a45824e9"
+		isrooted="True"
+		name="RegisterDropboxPersonalMicrosof"
+		refpath="/form[@title='Register - Dropbox - Personal - Microsoft​ Edge']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			addcaps="container,uiautomation,uiautomationscrollitem"
+			capname="container"
+			id="37455347-449a-442d-844b-cef16039fa54"
+			isrooted="True"
+			name="SidebarContentsSplitView"
+			refpath="/form[@title='Register - Dropbox - Personal - Microsoft​ Edge']/container[@name='Register - Dropbox - Microsoft Edge - Personal']/container[@classname='NonClientView']/container[@classname='BrowserFrameViewWin']/container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="container,uiautomation,uiautomationscrollitem"
+				capname="container"
+				id="f7bc5488-d65c-4278-8761-0e82ed552a3e"
+				name="LoginOrRegisterPageContent"
+				refimgid="c70e5a2d-5246-4eb6-9910-37734746084d"
+				refpath="/form[@title>'Register - Dropbox - Personal']/container[@name>'Register - Dropbox - Microsoft']/container/container[@classname='BrowserFrameViewWin']/container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SplitWindowContainerView' and @orientation='None' and @iscontentelement='True']/container/container[@automationid='62673728']/text/container/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']"
+				robustPath="/form[@title>'Register - Dropbox - Personal']//container[@automationid='login-or-register-page-content']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Register - Dropbox - Personal']/container[@name&gt;'Register - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container[@automationid='62673728']/text[@name='Register - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="4886d7cf-dcfd-42c7-9aa5-5140844f8cd4"
+				name="PleaseEnterAPassword"
+				refimgid="0bcd8570-18de-4c43-a54b-1257081b345a"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@title&gt;'Register - Dropbox - Personal']/container[@name&gt;'Register - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Register - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//container/text[@name='Please enter a password']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="69078f9f-1009-49a4-bd08-544eda7f4854"
+				name="AgreeAndSignUp"
+				refimgid="c72ff173-4cba-4155-8377-8afceb61639d"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@title&gt;'Register - Dropbox - Personal']/container[@name&gt;'Register - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Register - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//button[@name='Agree and sign up']/?/?/text[@name='Agree and sign up']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="a4ea5e79-da82-4a55-8d35-1dcbfb868608"
+				name="Continue"
+				refimgid="b5a57f0c-047e-4d95-a6b1-ef120e3fbbc4"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@title&gt;'Register - Dropbox - Personal']/container[@name&gt;'Register - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Register - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//button[@name='Continue']/?/?/text[@name='Continue']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem,uiautomationvalue"
+				capname="text"
+				id="6e59c07f-7e5c-4762-b5b5-c90c5436b782"
+				name="SusiEmail2945891388041464"
+				refimgid="81896641-d326-4839-aa73-6875e3409412"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@title&gt;'Register - Dropbox - Personal']/container[@name&gt;'Register - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Register - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//text[@automationid~'susi_email']
+				</item>
+				<basepath>
+					/form[@title&gt;'Register - Dropbox - Personal']/container[@name&gt;'Register - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title&gt;'Register - Dropbox - Personal']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK8SURBVDhPfZJrSFNxGMbP1NDmZVsxiPpgBH5J
+rVjehgtMbRCaSy0TaWl0oSBM8pLYxW5opmtIqdMPKRIUYVcixDDPNqc43c25vG0JoSE1ULZ5STef
+zrZjkpU/eD8czvv8/s+5EP9jl7SNjJBPIEI+jshuE3ZWVr+mb21MNGkDj/yBPfKvVNiCcMUIIpRG
+7O3RIk5DIsH4DvTq38SSc4giZ8CTT1OCLwiXj2C3wkTNINVCi5h+ORKHXiLN3ISAbexQOuaFTy4g
+lrRTAisl+IZIxTh1ujtsoAUaxKg7kTz0DCJzHcRT5WtN4skl8Ml5bK/sQsjl5+AUvwInvxVhb7S0
+wEAJBhCr7kCysRWZlirkThXiovWMV8Lv/InAwg8IvqECu0KLLQ8Gwa3Rg3u/F9yytx7BPpUKcer3
+OGRoRPrYPeRO5uPCdA4InkytCyiRg3lLh+DKEbCqx8GRWrC11kJJdA7mwVNF3PJ28FTt4Pe9gFAv
+RfpwCXLM53F2MhtEaNMk/K/rsfnuMJgVowiqGgOrxgxmQpnDU49mv7INgr5GCDV3kGYsQvZoHvIm
+joHwKzNg000T/G8Pw7dBDd8nKvhfaoFfWFIxnfUQo2hAvEqCpL5SpGrOIct0AuKxIyAYpfpln4ca
+MJq7QTT3wGp3wI3N4XC/IIY37v7EEggU5UjsKUBKvxgZOhEyB4TzBBElLmA0KxEuOokFhw1OpxMr
+KyuecVFD5wl+1zUI5EVIUp7G4d7jiK6Oov/Mq4/IHU+VsNntdNBTwIP72ru0EbJPi0T9R7jo0HpC
+MpsQlCKZobd/w0mR0HJhVoFvSzf17HOeE9fjFoRkyMA6Wg+W6DHYabVgp0oRLLii8woofFqUIGQd
+WHZ6e6yKFpec/xQEHShcC6/y+bvVE3K5XJidncXM3BIC0+soQeMfAnqdhiB+AeinCfZA3FOBAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

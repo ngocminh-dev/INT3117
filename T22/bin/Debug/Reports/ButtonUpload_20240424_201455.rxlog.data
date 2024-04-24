@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.61s"
+		durationms="7605"
+		type="root"
+		rid="57e07ae89922f60"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="admin"
+		rxversion="11.3.0.0"
+		host="NGOC-MINH-NITRO"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/24/2024 8:14:56 PM"
+		timestampiso="2024-04-24T13:14:56"
+		endtime="4/24/2024 8:15:04 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ButtonUpload">
+		<detail>
+			ButtonUpload
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.885"
+			timeRelativeToTestModuleStartTime="00:03.885"
+			timeWallClock="20:15:00"
+			time="00:03.885"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FilesDropboxPersonalMicrosoftE.UploadOrDrop' at 134;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Files - Dropbox - Personal']/container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@orientation='None' and @iscontentelement='True']/?/?/container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='maestro-content-portal']//container[@classname='_browseActionBarWrapper_12ja8_4 _actionBarWrapper_cxckl_9 _actionBarWrapperIntersectionOnly_cxckl_36']//button[@name='Upload or Drop']"
+				itempath="container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@orientation='None' and @iscontentelement='True']/?/?/container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='maestro-content-portal']//container[@classname='_browseActionBarWrapper_12ja8_4 _actionBarWrapper_cxckl_9 _actionBarWrapperIntersectionOnly_cxckl_36']//button[@name='Upload or Drop']"
+				fullname="T22Repository.FilesDropboxPersonalMicrosoftE.UploadOrDrop"
+				id="38c444026be149b1840fa363dfbdf04f"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T22\ButtonUpload.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.008"
+			timeRelativeToTestModuleStartTime="00:06.008"
+			timeWallClock="20:15:02"
+			time="00:06.008"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'FilesDropboxPersonalMicrosoftE.DigMenuContentDigMenuContentBotto'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Files - Dropbox - Personal']/container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@classname='dig-Layer']/?/?/contextmenu[@classname='dig-Menu-content dig-Menu-content--bottom-start']"
+				itempath="container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@classname='dig-Layer']/?/?/contextmenu[@classname='dig-Menu-content dig-Menu-content--bottom-start']"
+				fullname="T22Repository.FilesDropboxPersonalMicrosoftE.DigMenuContentDigMenuContentBotto"
+				id="a28155e50ae349dbb3197c08c964f81c"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T22\ButtonUpload.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.493"
+			timeRelativeToTestModuleStartTime="00:07.493"
+			timeWallClock="20:15:04"
+			time="00:07.493"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'DigMenuContentDigMenuContentBotto' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Files - Dropbox - Personal']/container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@classname='dig-Layer']/?/?/contextmenu[@classname='dig-Menu-content dig-Menu-content--bottom-start']"
+				itempath="container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@classname='dig-Layer']/?/?/contextmenu[@classname='dig-Menu-content dig-Menu-content--bottom-start']"
+				fullname="T22Repository.FilesDropboxPersonalMicrosoftE.DigMenuContentDigMenuContentBotto"
+				id="a28155e50ae349dbb3197c08c964f81c"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T22\ButtonUpload.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

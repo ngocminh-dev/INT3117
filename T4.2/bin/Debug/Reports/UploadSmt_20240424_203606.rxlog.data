@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="35.26s"
+		durationms="35258"
+		type="root"
+		rid="14d38954ab66edca"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="admin"
+		rxversion="11.3.0.0"
+		host="NGOC-MINH-NITRO"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/24/2024 8:36:08 PM"
+		timestampiso="2024-04-24T13:36:08"
+		endtime="4/24/2024 8:36:43 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="UploadSmt">
+		<detail>
+			UploadSmt
+		</detail>
+		<errormessage>
+			Failed to find item 'T4_2Repository.Open.ListItem2'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.606"
+			timeRelativeToTestModuleStartTime="00:03.606"
+			timeWallClock="20:36:11"
+			time="00:03.606"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Open.Tree100' at 40;78.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open']/element[@class='DUIViewWndClassName']/container/element[1]/?/?/tree[@controlid='100']/?/?/treeitem[@text='Desktop']"
+				itempath="element[@class='DUIViewWndClassName']/container/element[1]/?/?/tree[@controlid='100']/?/?/treeitem[@text='Desktop']"
+				fullname="T4_2Repository.Open.Tree100"
+				id="0477cf29c24547009ee8f7cb9dca67f8"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+				codeline="82"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.717"
+			timeRelativeToTestModuleStartTime="00:04.717"
+			timeWallClock="20:36:12"
+			time="00:04.717"
+			level="Warn"
+			category="Click"
+			errimg="images_UploadSm_ad9e5047\UploadSm_7e1ca8d9_rxlog.jpg"
+			errthumb="images_UploadSm_ad9e5047\UploadSm_7e1ca8d9_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.127"
+			timeRelativeToTestModuleStartTime="00:05.127"
+			timeWallClock="20:36:13"
+			time="00:05.127"
+			level="Info"
+			category="Mouse"
+			errimg="images_UploadSm_ad9e5047\UploadSm_ad9e5047_ad7645e8_trace.jpg"
+			errthumb="images_UploadSm_ad9e5047\UploadSm_ad9e5047_ad7645e8_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Open.ListItem2' at 43;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']/text[@automationid='System.ItemNameDisplay' and @uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']"
+				itempath="element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']/text[@automationid='System.ItemNameDisplay' and @uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']"
+				fullname="T4_2Repository.Open.ListItem2"
+				id="def3edbcc59f46e6b1ba14e2f1d3971b"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+				codeline="86"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.146"
+			timeRelativeToTestModuleStartTime="00:35.146"
+			timeWallClock="20:36:43"
+			time="00:35.146"
+			level="Info"
+			category="User"
+			errimg="images_UploadSm_ad9e5047\UploadSm_ad9e5047_cbdfcc1b_trace.jpg"
+			errthumb="images_UploadSm_ad9e5047\UploadSm_ad9e5047_cbdfcc1b_trace_thumb.jpg">
+			<message>
+				Item 'ListItem2' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+				codeline="87"
+				loglvl="Info"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.183"
+			timeRelativeToTestModuleStartTime="00:35.183"
+			timeWallClock="20:36:43"
+			time="00:35.183"
+			level="Error"
+			category="Module"
+			errimg="images_UploadSm_ad9e5047\UploadSm_ad9e5047_e6b978d1_trace.jpg"
+			errthumb="images_UploadSm_ad9e5047\UploadSm_ad9e5047_e6b978d1_trace_thumb.jpg">
+			<message>
+				Failed to find item 'T4_2Repository.Open.ListItem2'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path 'element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']/text[@automationid='System.ItemNameDisplay' and @uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']' at step 'descendant-or-self::listitem[@automationid='2']' after 358 attempts within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at T4._.T4_2RepositoryFolders.OpenAppFolder.get_ListItem2() in C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\T4.2Repository.cs:line 414&#13;&#10;   at T4._.UploadSmt.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs:line 87&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+				codeline="87"
+				type="repoitem"
+				path="/form[@title='Open']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']/text[@automationid='System.ItemNameDisplay' and @uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']"
+				itempath="element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']/text[@automationid='System.ItemNameDisplay' and @uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']"
+				fullname="T4_2Repository.Open.ListItem2"
+				id="def3edbcc59f46e6b1ba14e2f1d3971b"
+				timeout="60000"
+				failedStep="descendant-or-self::listitem[@automationid='2']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

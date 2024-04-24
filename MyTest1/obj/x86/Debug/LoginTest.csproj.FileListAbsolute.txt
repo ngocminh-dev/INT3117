@@ -1,0 +1,12 @@
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\MyTest1.rxtmg
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\MyTest1.rxtst
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\LoginTest.exe.config
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\LoginTest.xml
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\LoginTest.exe
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\LoginTest.pdb
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\obj\x86\Debug\LoginTest.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\obj\x86\Debug\LoginTest.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\obj\x86\Debug\LoginTest.csproj.CopyComplete
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\obj\x86\Debug\LoginTest.exe
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\obj\x86\Debug\LoginTest.pdb

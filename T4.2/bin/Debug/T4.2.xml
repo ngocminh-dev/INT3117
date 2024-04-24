@@ -1,0 +1,324 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>T4.2</name>
+    </assembly>
+    <members>
+        <member name="T:T4._.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:T4._.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the T4_2Repository repository.
+            </summary>
+        </member>
+        <member name="M:T4._.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T4._.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T4._.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T4._.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T4._.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T4._.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T4._.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:T4._.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the T4_2Repository repository.
+            </summary>
+        </member>
+        <member name="M:T4._.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T4._.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T4._.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T4._.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T4._.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T4._.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T4._.UploadSmt">
+             <summary>
+            The UploadSmt recording.
+             </summary>
+        </member>
+        <member name="F:T4._.UploadSmt.repo">
+            <summary>
+            Holds an instance of the T4_2Repository repository.
+            </summary>
+        </member>
+        <member name="M:T4._.UploadSmt.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T4._.UploadSmt.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T4._.UploadSmt.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T4._.UploadSmt.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T4._.UploadSmt.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T4._.UploadSmt.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T4._.T4_2Repository">
+            <summary>
+            The class representing the T4_2Repository element repository.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the T4_2Repository element repository.
+            </summary>
+        </member>
+        <member name="M:T4._.T4_2Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2Repository.FilesDropboxPersonalMicrosoftE">
+            <summary>
+            The FilesDropboxPersonalMicrosoftE folder.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2Repository.Open">
+            <summary>
+            The Open folder.
+            </summary>
+        </member>
+        <member name="T:T4._.T4_2RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:T4._.T4_2RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T4._.T4_2RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:T4._.T4_2RepositoryFolders.FilesDropboxPersonalMicrosoftEAppFolder">
+            <summary>
+            The FilesDropboxPersonalMicrosoftEAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T4._.T4_2RepositoryFolders.FilesDropboxPersonalMicrosoftEAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FilesDropboxPersonalMicrosoftE  folder.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.FilesDropboxPersonalMicrosoftEAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.FilesDropboxPersonalMicrosoftEAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.FilesDropboxPersonalMicrosoftEAppFolder.SidebarContentsSplitView">
+            <summary>
+            The SidebarContentsSplitView folder.
+            </summary>
+        </member>
+        <member name="T:T4._.T4_2RepositoryFolders.SidebarContentsSplitViewFolder">
+            <summary>
+            The SidebarContentsSplitViewFolder folder.
+            </summary>
+        </member>
+        <member name="M:T4._.T4_2RepositoryFolders.SidebarContentsSplitViewFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SidebarContentsSplitView  folder.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.SidebarContentsSplitViewFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.SidebarContentsSplitViewFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.SidebarContentsSplitViewFolder.File">
+            <summary>
+            The File item.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.SidebarContentsSplitViewFolder.FileInfo">
+            <summary>
+            The File item info.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.SidebarContentsSplitViewFolder.UploadOrDrop">
+            <summary>
+            The UploadOrDrop item.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.SidebarContentsSplitViewFolder.UploadOrDropInfo">
+            <summary>
+            The UploadOrDrop item info.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.SidebarContentsSplitViewFolder.UploadedTo">
+            <summary>
+            The UploadedTo item.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.SidebarContentsSplitViewFolder.UploadedToInfo">
+            <summary>
+            The UploadedTo item info.
+            </summary>
+        </member>
+        <member name="T:T4._.T4_2RepositoryFolders.OpenAppFolder">
+            <summary>
+            The OpenAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T4._.T4_2RepositoryFolders.OpenAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Open  folder.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.OpenAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.OpenAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.OpenAppFolder.Tree100">
+            <summary>
+            The Tree100 item.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.OpenAppFolder.Tree100Info">
+            <summary>
+            The Tree100 item info.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.OpenAppFolder.ButtonOpen">
+            <summary>
+            The ButtonOpen item.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.OpenAppFolder.ButtonOpenInfo">
+            <summary>
+            The ButtonOpen item info.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.OpenAppFolder.ListItem2">
+            <summary>
+            The ListItem2 item.
+            </summary>
+        </member>
+        <member name="P:T4._.T4_2RepositoryFolders.OpenAppFolder.ListItem2Info">
+            <summary>
+            The ListItem2 item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

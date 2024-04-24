@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="8.18s"
+		durationms="8183"
+		type="root"
+		rid="182796558957d"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="admin"
+		rxversion="11.3.0.0"
+		host="NGOC-MINH-NITRO"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/23/2024 2:48:29 PM"
+		timestampiso="2024-04-23T07:48:29"
+		endtime="4/23/2024 2:48:37 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="EmailFormat">
+		<detail>
+			EmailFormat
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.862"
+			timeRelativeToTestModuleStartTime="00:03.862"
+			timeWallClock="14:48:33"
+			time="00:03.862"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RegisterDropboxPersonalMicrosof.LoginOrRegisterPageContent.SusiEmail12233782113174296' at 124;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Register - Dropbox - Personal']/container[@name>'Register - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container[@automationid='187568400']/text[@name='Register - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//text[@automationid='susi_email12233782113174296']"
+				itempath=".//text[@automationid='susi_email12233782113174296']"
+				fullname="MyTestRepository.RegisterDropboxPersonalMicrosof.LoginOrRegisterPageContent.SusiEmail12233782113174296"
+				id="6a88bfb2627c4f3a8827fe9bd2b21655"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest\EmailFormat.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.042"
+			timeRelativeToTestModuleStartTime="00:06.042"
+			timeWallClock="14:48:35"
+			time="00:06.042"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'aád@@' with focus on 'RegisterDropboxPersonalMicrosof.LoginOrRegisterPageContent.SusiEmail12233782113174296'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Register - Dropbox - Personal']/container[@name>'Register - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container[@automationid='187568400']/text[@name='Register - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//text[@automationid='susi_email12233782113174296']"
+				itempath=".//text[@automationid='susi_email12233782113174296']"
+				fullname="MyTestRepository.RegisterDropboxPersonalMicrosof.LoginOrRegisterPageContent.SusiEmail12233782113174296"
+				id="6a88bfb2627c4f3a8827fe9bd2b21655"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest\EmailFormat.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.718"
+			timeRelativeToTestModuleStartTime="00:06.718"
+			timeWallClock="14:48:36"
+			time="00:06.718"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RegisterDropboxPersonalMicrosof.LoginOrRegisterPageContent.Continue' at 28;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Register - Dropbox - Personal']/container[@name>'Register - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container[@automationid='187568400']/text[@name='Register - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//button[@name='Continue']/?/?/text[@name='Continue']"
+				itempath=".//button[@name='Continue']/?/?/text[@name='Continue']"
+				fullname="MyTestRepository.RegisterDropboxPersonalMicrosof.LoginOrRegisterPageContent.Continue"
+				id="e5f6489cad0747978b9d4960bb4a4ab3"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest\EmailFormat.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.885"
+			timeRelativeToTestModuleStartTime="00:07.885"
+			timeWallClock="14:48:37"
+			time="00:07.885"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'RegisterDropboxPersonalMicrosof.LoginOrRegisterPageContent.SusiEmail12233782113174296InputError'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Register - Dropbox - Personal']/container[@name>'Register - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container[@automationid='187568400']/text[@name='Register - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//container[@automationid='susi_email12233782113174296__input-error']"
+				itempath=".//container[@automationid='susi_email12233782113174296__input-error']"
+				fullname="MyTestRepository.RegisterDropboxPersonalMicrosof.LoginOrRegisterPageContent.SusiEmail12233782113174296InputError"
+				id="71a887cc99a74fdc8bd088c9258d0608"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest\EmailFormat.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.074"
+			timeRelativeToTestModuleStartTime="00:08.074"
+			timeWallClock="14:48:37"
+			time="00:08.074"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'SusiEmail12233782113174296InputError' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Register - Dropbox - Personal']/container[@name>'Register - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container[@automationid='187568400']/text[@name='Register - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//container[@automationid='susi_email12233782113174296__input-error']"
+				itempath=".//container[@automationid='susi_email12233782113174296__input-error']"
+				fullname="MyTestRepository.RegisterDropboxPersonalMicrosof.LoginOrRegisterPageContent.SusiEmail12233782113174296InputError"
+				id="71a887cc99a74fdc8bd088c9258d0608"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest\EmailFormat.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

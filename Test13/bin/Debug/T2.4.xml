@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>T2.4</name>
+    </assembly>
+    <members>
+        <member name="T:Test13.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Test13.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the Test13Repository repository.
+            </summary>
+        </member>
+        <member name="M:Test13.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Test13.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Test13.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Test13.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Test13.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Test13.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Test13.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Test13.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the Test13Repository repository.
+            </summary>
+        </member>
+        <member name="M:Test13.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Test13.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Test13.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Test13.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Test13.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Test13.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Test13.RemoveSpace">
+             <summary>
+            The RemoveSpace recording.
+             </summary>
+        </member>
+        <member name="F:Test13.RemoveSpace.repo">
+            <summary>
+            Holds an instance of the Test13Repository repository.
+            </summary>
+        </member>
+        <member name="M:Test13.RemoveSpace.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Test13.RemoveSpace.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Test13.RemoveSpace.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Test13.RemoveSpace.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Test13.RemoveSpace.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Test13.RemoveSpace.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Test13.Test13Repository">
+            <summary>
+            The class representing the Test13Repository element repository.
+            </summary>
+        </member>
+        <member name="P:Test13.Test13Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Test13Repository element repository.
+            </summary>
+        </member>
+        <member name="M:Test13.Test13Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Test13.Test13Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Test13.Test13Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:Test13.Test13Repository.LoginDropboxPersonalMicrosoftE">
+            <summary>
+            The LoginDropboxPersonalMicrosoftE folder.
+            </summary>
+        </member>
+        <member name="T:Test13.Test13RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Test13.Test13RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Test13.Test13RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:Test13.Test13RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Test13.Test13RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Test13.Test13RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder">
+            <summary>
+            The LoginDropboxPersonalMicrosoftEAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Test13.Test13RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginDropboxPersonalMicrosoftE  folder.
+            </summary>
+        </member>
+        <member name="P:Test13.Test13RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Test13.Test13RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Test13.Test13RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder.SidebarContentsSplitView">
+            <summary>
+            The SidebarContentsSplitView folder.
+            </summary>
+        </member>
+        <member name="T:Test13.Test13RepositoryFolders.SidebarContentsSplitViewFolder">
+            <summary>
+            The SidebarContentsSplitViewFolder folder.
+            </summary>
+        </member>
+        <member name="M:Test13.Test13RepositoryFolders.SidebarContentsSplitViewFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SidebarContentsSplitView  folder.
+            </summary>
+        </member>
+        <member name="P:Test13.Test13RepositoryFolders.SidebarContentsSplitViewFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Test13.Test13RepositoryFolders.SidebarContentsSplitViewFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Test13.Test13RepositoryFolders.SidebarContentsSplitViewFolder.SusiEmail6693943736291585">
+            <summary>
+            The SusiEmail6693943736291585 item.
+            </summary>
+        </member>
+        <member name="P:Test13.Test13RepositoryFolders.SidebarContentsSplitViewFolder.SusiEmail6693943736291585Info">
+            <summary>
+            The SusiEmail6693943736291585 item info.
+            </summary>
+        </member>
+        <member name="P:Test13.Test13RepositoryFolders.SidebarContentsSplitViewFolder.Continue">
+            <summary>
+            The Continue item.
+            </summary>
+        </member>
+        <member name="P:Test13.Test13RepositoryFolders.SidebarContentsSplitViewFolder.ContinueInfo">
+            <summary>
+            The Continue item info.
+            </summary>
+        </member>
+        <member name="P:Test13.Test13RepositoryFolders.SidebarContentsSplitViewFolder.WelcomeBack">
+            <summary>
+            The WelcomeBack item.
+            </summary>
+        </member>
+        <member name="P:Test13.Test13RepositoryFolders.SidebarContentsSplitViewFolder.WelcomeBackInfo">
+            <summary>
+            The WelcomeBack item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

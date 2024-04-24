@@ -1,0 +1,12 @@
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T9\bin\Debug\T9.rxtmg
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T9\bin\Debug\T9.rxtst
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T9\bin\Debug\T9.exe.config
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T9\bin\Debug\T9.xml
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T9\bin\Debug\T9.exe
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T9\bin\Debug\T9.pdb
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T9\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T9\obj\x86\Debug\T9.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T9\obj\x86\Debug\T9.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T9\obj\x86\Debug\T9.csproj.CopyComplete
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T9\obj\x86\Debug\T9.exe
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T9\obj\x86\Debug\T9.pdb

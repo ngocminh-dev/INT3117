@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="20.91s"
+		durationms="20907"
+		type="root"
+		rid="39f68342889053e8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="admin"
+		rxversion="11.3.0.0"
+		host="NGOC-MINH-NITRO"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/24/2024 6:53:02 PM"
+		timestampiso="2024-04-24T11:53:02"
+		endtime="4/24/2024 6:53:23 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="RemoveSpace">
+		<detail>
+			RemoveSpace
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.837"
+			timeRelativeToTestModuleStartTime="00:03.837"
+			timeWallClock="18:53:06"
+			time="00:03.837"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginDropboxPersonalMicrosoftE.SidebarContentsSplitView.SusiEmail6693943736291585' at 37;33.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Login - Dropbox - Personal']/container[@name>'Login - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//container[@classname='_field-input-wrapper_4srl7_50']/text[@automationid~'susi_email']"
+				itempath="container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//container[@classname='_field-input-wrapper_4srl7_50']/text[@automationid~'susi_email']"
+				fullname="Test13Repository.LoginDropboxPersonalMicrosoftE.SidebarContentsSplitView.SusiEmail6693943736291585"
+				id="6103d0abc13c4a4ba799b19e05af30c4"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\Test13\RemoveSpace.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.473"
+			timeRelativeToTestModuleStartTime="00:13.473"
+			timeWallClock="18:53:15"
+			time="00:13.473"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '                   aduconchoxuytbg123@gmail.com                                ' with focus on 'LoginDropboxPersonalMicrosoftE.SidebarContentsSplitView.SusiEmail6693943736291585'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Login - Dropbox - Personal']/container[@name>'Login - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//container[@classname='_field-input-wrapper_4srl7_50']/text[@automationid~'susi_email']"
+				itempath="container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//container[@classname='_field-input-wrapper_4srl7_50']/text[@automationid~'susi_email']"
+				fullname="Test13Repository.LoginDropboxPersonalMicrosoftE.SidebarContentsSplitView.SusiEmail6693943736291585"
+				id="6103d0abc13c4a4ba799b19e05af30c4"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\Test13\RemoveSpace.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.609"
+			timeRelativeToTestModuleStartTime="00:17.609"
+			timeWallClock="18:53:19"
+			time="00:17.609"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginDropboxPersonalMicrosoftE.SidebarContentsSplitView.Continue' at 37;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Login - Dropbox - Personal']/container[@name>'Login - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@orientation='None' and @iscontentelement='True']/?/?/container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//button[@name='Continue']/?/?/text[@name='Continue']"
+				itempath="container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@orientation='None' and @iscontentelement='True']/?/?/container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//button[@name='Continue']/?/?/text[@name='Continue']"
+				fullname="Test13Repository.LoginDropboxPersonalMicrosoftE.SidebarContentsSplitView.Continue"
+				id="fd6e10eac53a42a6a11c632b14015b50"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\Test13\RemoveSpace.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.361"
+			timeRelativeToTestModuleStartTime="00:19.361"
+			timeWallClock="18:53:21"
+			time="00:19.361"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Welcome back') on item 'LoginDropboxPersonalMicrosoftE.SidebarContentsSplitView.WelcomeBack'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Login - Dropbox - Personal']/container[@name>'Login - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//text[@name='Welcome back']"
+				itempath="container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//text[@name='Welcome back']"
+				fullname="Test13Repository.LoginDropboxPersonalMicrosoftE.SidebarContentsSplitView.WelcomeBack"
+				id="adbf92cb399346e699a304b4c1b7ab5c"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\Test13\RemoveSpace.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.798"
+			timeRelativeToTestModuleStartTime="00:20.798"
+			timeWallClock="18:53:22"
+			time="00:20.798"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'Test13Repository.LoginDropboxPersonalMicrosoftE.SidebarContentsSplitView.WelcomeBack' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Login - Dropbox - Personal']/container[@name>'Login - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//text[@name='Welcome back']"
+				itempath="container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//text[@name='Welcome back']"
+				fullname="Test13Repository.LoginDropboxPersonalMicrosoftE.SidebarContentsSplitView.WelcomeBack"
+				id="adbf92cb399346e699a304b4c1b7ab5c"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\Test13\RemoveSpace.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

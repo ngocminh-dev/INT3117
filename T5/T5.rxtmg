@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="T5"
+      id="26f2c818-b5c0-430a-a16f-43d7a3c6b1b3"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="T5"
+      id="26f2c818-b5c0-430a-a16f-43d7a3c6b1b3"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

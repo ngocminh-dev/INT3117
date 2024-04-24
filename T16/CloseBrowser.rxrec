@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="1cd46cd1-dc90-45c2-aa49-cb1e088645c5"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="T16">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="c9299438-7eba-4630-aec2-13ee340854fa">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="39982c39-ca95-4f91-96d1-12d6ff2df15a"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title&gt;'Sign In - Google Accounts']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="c9299438-7eba-4630-aec2-13ee340854fa">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1fe0666e-3c4d-4cac-8443-21315560b0b1"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title&gt;'Login - Dropbox - Personal']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="b41eaa44-020c-4492-a254-b3334225b822"
+	name="T16Repository"
+	relativepath="T16Repository.rxrep">
+		<codegen
+		classname="T16Repository"
+		namespace="T16">
+		</codegen>
+		<rootfolder
+		id="85de23aa-169f-47c4-bb03-5d1aed409c17"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

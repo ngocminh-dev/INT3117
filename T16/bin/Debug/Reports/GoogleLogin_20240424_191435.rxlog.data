@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="10.05s"
+		durationms="10050"
+		type="root"
+		rid="2b51caf712f40dd"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="admin"
+		rxversion="11.3.0.0"
+		host="NGOC-MINH-NITRO"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/24/2024 7:14:36 PM"
+		timestampiso="2024-04-24T12:14:36"
+		endtime="4/24/2024 7:14:46 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="GoogleLogin">
+		<detail>
+			GoogleLogin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.992"
+			timeRelativeToTestModuleStartTime="00:03.992"
+			timeWallClock="19:14:40"
+			time="00:03.992"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginDropboxPersonalMicrosoftE.ContinueWithGoogle' at 48;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Login - Dropbox - Personal']/container[@name>'Login - Dropbox - Microsoft']//container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//container[@automationid='sign-in-with-google-button-container--login']//text/text[@name='Sign In - Google Accounts']/?/?/container[@automationid='container']/button[@name='Continue with Google']/?/?/text[@name='Continue with Google']"
+				itempath="container[@name>'Login - Dropbox - Microsoft']//container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//container[@automationid='sign-in-with-google-button-container--login']//text/text[@name='Sign In - Google Accounts']/?/?/container[@automationid='container']/button[@name='Continue with Google']/?/?/text[@name='Continue with Google']"
+				fullname="T16Repository.LoginDropboxPersonalMicrosoftE.ContinueWithGoogle"
+				id="dbda433968de45809e96dc57db30248e"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T16\GoogleLogin.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.436"
+			timeRelativeToTestModuleStartTime="00:08.436"
+			timeWallClock="19:14:45"
+			time="00:08.436"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Đăng nhập bằng Google') on item 'SignInGoogleAccountsPersonalM.ĐăngNhapBăngGoogle'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Sign In - Google Accounts']/container[@name>'Sign In - Google Accounts']//container[@classname='SidebarContentsSplitView']//container/?/?/container[@automationid='container']/container[@automationid='main_dialog']/container[@automationid='banner']/container[@automationid='dialog_banner']/text[@name='Đăng nhập bằng Google']"
+				itempath="container[@name>'Sign In - Google Accounts']//container[@classname='SidebarContentsSplitView']//container/?/?/container[@automationid='container']/container[@automationid='main_dialog']/container[@automationid='banner']/container[@automationid='dialog_banner']/text[@name='Đăng nhập bằng Google']"
+				fullname="T16Repository.SignInGoogleAccountsPersonalM.ĐăngNhapBăngGoogle"
+				id="2cbe3d2a4e81468588dc4d0f9f3f46a9"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T16\GoogleLogin.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.941"
+			timeRelativeToTestModuleStartTime="00:09.941"
+			timeWallClock="19:14:46"
+			time="00:09.941"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'T16Repository.SignInGoogleAccountsPersonalM.ĐăngNhapBăngGoogle' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Sign In - Google Accounts']/container[@name>'Sign In - Google Accounts']//container[@classname='SidebarContentsSplitView']//container/?/?/container[@automationid='container']/container[@automationid='main_dialog']/container[@automationid='banner']/container[@automationid='dialog_banner']/text[@name='Đăng nhập bằng Google']"
+				itempath="container[@name>'Sign In - Google Accounts']//container[@classname='SidebarContentsSplitView']//container/?/?/container[@automationid='container']/container[@automationid='main_dialog']/container[@automationid='banner']/container[@automationid='dialog_banner']/text[@name='Đăng nhập bằng Google']"
+				fullname="T16Repository.SignInGoogleAccountsPersonalM.ĐăngNhapBăngGoogle"
+				id="2cbe3d2a4e81468588dc4d0f9f3f46a9"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T16\GoogleLogin.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

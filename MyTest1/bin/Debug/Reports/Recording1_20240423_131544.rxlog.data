@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="11.16s"
+		durationms="11158"
+		type="root"
+		rid="7941b71acbf2b9c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="admin"
+		rxversion="11.3.0.0"
+		host="NGOC-MINH-NITRO"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/23/2024 1:15:46 PM"
+		timestampiso="2024-04-23T06:15:46"
+		endtime="4/23/2024 1:15:57 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.020"
+			timeRelativeToTestModuleStartTime="00:04.020"
+			timeWallClock="13:15:50"
+			time="00:04.020"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.AccountMenu' at 12;21.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Files - Dropbox - Personal']/container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//?/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='global-header-portal']/container[@name='Global header']//button[@name='Account menu']"
+				itempath="container[@classname='SidebarContentsSplitView']//?/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='global-header-portal']/container[@name='Global header']//button[@name='Account menu']"
+				fullname="MyTest1Repository.FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.AccountMenu"
+				id="4e8ecc4133eb486e8d1bea2fbdffdd53"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="82"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.005"
+			timeRelativeToTestModuleStartTime="00:07.005"
+			timeWallClock="13:15:53"
+			time="00:07.005"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Minh Nguyễn') on item 'FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.MinhNguyễn'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Files - Dropbox - Personal']/container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/?/?/container[@classname='SidebarContentsSplitView']//?/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@classname='dig-Layer']//text[@name='Minh Nguyễn']"
+				itempath="container[@classname='SidebarContentsSplitView']/?/?/container[@classname='SidebarContentsSplitView']//?/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@classname='dig-Layer']//text[@name='Minh Nguyễn']"
+				fullname="MyTest1Repository.FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.MinhNguyễn"
+				id="b0f55d95a4bc4837a7ff1c9b3427b83c"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="86"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.504"
+			timeRelativeToTestModuleStartTime="00:08.504"
+			timeWallClock="13:15:55"
+			time="00:08.504"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'MyTest1Repository.FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.MinhNguyễn' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Files - Dropbox - Personal']/container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/?/?/container[@classname='SidebarContentsSplitView']//?/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@classname='dig-Layer']//text[@name='Minh Nguyễn']"
+				itempath="container[@classname='SidebarContentsSplitView']/?/?/container[@classname='SidebarContentsSplitView']//?/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@classname='dig-Layer']//text[@name='Minh Nguyễn']"
+				fullname="MyTest1Repository.FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.MinhNguyễn"
+				id="b0f55d95a4bc4837a7ff1c9b3427b83c"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="8">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.613"
+			timeRelativeToTestModuleStartTime="00:08.613"
+			timeWallClock="13:15:55"
+			time="00:08.613"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.LogOut' at 27;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Files - Dropbox - Personal']/container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//?/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@classname='dig-Layer']//menuitem[@name='Log out']//text[@name='Log out']"
+				itempath="container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//?/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@classname='dig-Layer']//menuitem[@name='Log out']//text[@name='Log out']"
+				fullname="MyTest1Repository.FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.LogOut"
+				id="985fb1001eef498ba075ffba66684d31"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="90"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

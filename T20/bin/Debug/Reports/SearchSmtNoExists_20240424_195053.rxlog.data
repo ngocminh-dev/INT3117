@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="16.73s"
+		durationms="16729"
+		type="root"
+		rid="27affd1f6352c20"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="admin"
+		rxversion="11.3.0.0"
+		host="NGOC-MINH-NITRO"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/24/2024 7:50:55 PM"
+		timestampiso="2024-04-24T12:50:55"
+		endtime="4/24/2024 7:51:12 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SearchSmtNoExists">
+		<detail>
+			SearchSmtNoExists
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.252"
+			timeRelativeToTestModuleStartTime="00:04.252"
+			timeWallClock="19:50:59"
+			time="00:04.252"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FilesDropboxPersonalMicrosoftE.SearchInFolderDropbox' at 50;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Files - Dropbox - Personal']/container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container[@automationid>'']/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='global-header-portal']/container[@name='Global header']/container[@classname='_search-input-portal-web-redesign_kxyvl_8']//combobox[@name>'Search in folder “Dropbox']"
+				itempath="container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container[@automationid>'']/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='global-header-portal']/container[@name='Global header']/container[@classname='_search-input-portal-web-redesign_kxyvl_8']//combobox[@name>'Search in folder “Dropbox']"
+				fullname="T20Repository.FilesDropboxPersonalMicrosoftE.SearchInFolderDropbox"
+				id="73b6978a0cc74b7b83c8974ce3e00d48"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T20\SearchSmtNoExists.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.873"
+			timeRelativeToTestModuleStartTime="00:07.873"
+			timeWallClock="19:51:03"
+			time="00:07.873"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SearchResultsDropboxPersonalMi.SearchInFolderDropbox' at 55;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Search results - Dropbox -']/container[@name>'Search results - Dropbox -']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container[@automationid>'']/text[@name='Search results - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='global-header-portal']/container[@name='Global header']/container[@classname='_search-input-portal-web-redesign_kxyvl_8']//combobox[@name>'Search in folder “Dropbox']"
+				itempath="container[@name>'Search results - Dropbox -']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container[@automationid>'']/text[@name='Search results - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='global-header-portal']/container[@name='Global header']/container[@classname='_search-input-portal-web-redesign_kxyvl_8']//combobox[@name>'Search in folder “Dropbox']"
+				fullname="T20Repository.SearchResultsDropboxPersonalMi.SearchInFolderDropbox"
+				id="312e894213c24a659e528df7d372e8e4"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T20\SearchSmtNoExists.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.131"
+			timeRelativeToTestModuleStartTime="00:10.131"
+			timeWallClock="19:51:05"
+			time="00:10.131"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'xyz' with focus on 'SearchResultsDropboxPersonalMi.SearchInFolderDropbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Search results - Dropbox -']/container[@name>'Search results - Dropbox -']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container[@automationid>'']/text[@name='Search results - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='global-header-portal']/container[@name='Global header']/container[@classname='_search-input-portal-web-redesign_kxyvl_8']//combobox[@name>'Search in folder “Dropbox']"
+				itempath="container[@name>'Search results - Dropbox -']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container[@automationid>'']/text[@name='Search results - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='global-header-portal']/container[@name='Global header']/container[@classname='_search-input-portal-web-redesign_kxyvl_8']//combobox[@name>'Search in folder “Dropbox']"
+				fullname="T20Repository.SearchResultsDropboxPersonalMi.SearchInFolderDropbox"
+				id="312e894213c24a659e528df7d372e8e4"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T20\SearchSmtNoExists.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.956"
+			timeRelativeToTestModuleStartTime="00:11.956"
+			timeWallClock="19:51:07"
+			time="00:11.956"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'SearchResultsDropboxPersonalMi.SearchInFolderDropbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Search results - Dropbox -']/container[@name>'Search results - Dropbox -']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container[@automationid>'']/text[@name='Search results - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='global-header-portal']/container[@name='Global header']/container[@classname='_search-input-portal-web-redesign_kxyvl_8']//combobox[@name>'Search in folder “Dropbox']"
+				itempath="container[@name>'Search results - Dropbox -']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container[@automationid>'']/text[@name='Search results - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='global-header-portal']/container[@name='Global header']/container[@classname='_search-input-portal-web-redesign_kxyvl_8']//combobox[@name>'Search in folder “Dropbox']"
+				fullname="T20Repository.SearchResultsDropboxPersonalMi.SearchInFolderDropbox"
+				id="312e894213c24a659e528df7d372e8e4"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T20\SearchSmtNoExists.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.690"
+			timeRelativeToTestModuleStartTime="00:13.690"
+			timeWallClock="19:51:09"
+			time="00:13.690"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='No results found') on item 'SearchResultsDropboxPersonalMi.NoResultsFound'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Search results - Dropbox -']/container[@name>'Search results - Dropbox -']//container[@classname='SidebarContentsSplitView']//container[@automationid>'']/?/?/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='maestro-content-portal']/?/?/container[@classname='_search-view-container-web-redesign-without-section-component_7vhv8_3']/container[@automationid='search-view']/text[@name='No results found']/text[@name='No results found']"
+				itempath="container[@name>'Search results - Dropbox -']//container[@classname='SidebarContentsSplitView']//container[@automationid>'']/?/?/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='maestro-content-portal']/?/?/container[@classname='_search-view-container-web-redesign-without-section-component_7vhv8_3']/container[@automationid='search-view']/text[@name='No results found']/text[@name='No results found']"
+				fullname="T20Repository.SearchResultsDropboxPersonalMi.NoResultsFound"
+				id="fd93580ee70947e0ba893c819562cc6a"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T20\SearchSmtNoExists.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.623"
+			timeRelativeToTestModuleStartTime="00:16.623"
+			timeWallClock="19:51:12"
+			time="00:16.623"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'T20Repository.SearchResultsDropboxPersonalMi.NoResultsFound' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Search results - Dropbox -']/container[@name>'Search results - Dropbox -']//container[@classname='SidebarContentsSplitView']//container[@automationid>'']/?/?/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='maestro-content-portal']/?/?/container[@classname='_search-view-container-web-redesign-without-section-component_7vhv8_3']/container[@automationid='search-view']/text[@name='No results found']/text[@name='No results found']"
+				itempath="container[@name>'Search results - Dropbox -']//container[@classname='SidebarContentsSplitView']//container[@automationid>'']/?/?/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='maestro-content-portal']/?/?/container[@classname='_search-view-container-web-redesign-without-section-component_7vhv8_3']/container[@automationid='search-view']/text[@name='No results found']/text[@name='No results found']"
+				fullname="T20Repository.SearchResultsDropboxPersonalMi.NoResultsFound"
+				id="fd93580ee70947e0ba893c819562cc6a"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T20\SearchSmtNoExists.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+	</activity>
+</report>

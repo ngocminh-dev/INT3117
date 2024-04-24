@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7ab0affb-5590-4cf0-b429-0f28f9310bc1"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Logout"
+	namespace="MyTest1">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="27;7"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d1ad0c13-f1e1-4a63-b161-a3ae85d1af0d"
+		sx="1527"
+		sy="525"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="985fb100-1eef-498b-a075-ffba66684d31"
+			sourcename="Recorder">
+				<element
+				capabilities="uiautomation, uiautomationscrollitem"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="1500,518,51,17"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="backgroundcolor"
+					type="System.String">
+						Log out
+					</attribute>
+					<attribute
+					name="caption"
+					type="System.String">
+						Log out
+					</attribute>
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						488
+					</attribute>
+					<attribute
+					name="selectiontext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Log out
+					</attribute>
+					<attribute
+					name="textcolor"
+					type="System.String">
+						Log out
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						Chrome
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Log out
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAComWrapper, Version=1.1.0.14, Culture=neutral, PublicKeyToken=78cbcf77433a85e5">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						5780
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'Files - Dropbox - Personal']/container[@name&gt;'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container[@automationid='166928608']/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@classname='dig-Layer']//menuitem[@name='Log out']//text[@name='Log out']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="631eb718-8cbb-44ca-a3ec-3fa3cc2baddb">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAwAK4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDCoooo
+AKKKKAEpydT9KbT4vvn6UAFFTYHoKUICOgpNpblRhKbtFEFFWPL9hR5fsKXPHua/V6v8pXoqx5fs
+KPL9hRzx7h9Xq/yleirHl+wo8v2FHPHuH1er/KV6KnKADoKTA9BTTT2MpQlB2kiGipsD0FGB6CmS
+Q0VNgegowPQUAQ0VNgegowPQUAV6KKKACiiigBKkh+/+FR1JD9/8KAJqkhUOyoejMAcfWo6lgYI6
+MxwA4J/Opl0NqP2vR/kJcRiK6kiTJCuVGevWnS2k0KbnQAA4OGBwffHT8anmaIXrXSTxuPM3hAGy
+RnPcYp7Twxmdo5POM0isFCkYwc8579uM1SMWVnsrhI2dkACAFvmGVz0yM5FRwxPPu8vaQoyxLAAf
+ia0ZVTbqEgkJLgHaVIK5YcHPei4ilks4kgjVs29vn5scksB9etAyg1vKnmbkx5WA/PTPSpYbGSTf
+uKoVj3jLDkHp3qeSUMk0U4aAsiorOCQShw3Iz3oae3M7qs3yNbiMOVOMjHXv2oEUGGEx702nMMLj
+OeetNqIm9bdeiCiiirMAooooAKKKKAK1FFFABRRRQAlSQ/f/AAqOnJ1P0oAsU4EAYNV8n1NGT6mk
+1cuE3B3RYyvoaMr6Gq+T6mjJ9TS5fM09s/5V9xpWyzagzW/2k5VdyJISQ30544rorW1VbWESp+8E
+catz3XkfrXGJI6Oro5VlOQR2NdLbeIbZ4QbkNHIOoCkg/SqSMpS5iDxCiRG2UDg+Y34kgn+dZGV9
+DU2raidQuQyKUjQYQHqfU1RyfU1LVy41HFWsvuLBIIwKbUOT6mjJ9TTSsTObm7smoqHJ9TRk+ppk
+E1FQ5PqaMn1NAE1FQ5PqaMn1NAH/2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="5956f0bf-4798-4720-bd2e-e494ee1fd6fd"
+	name="MyTest1Repository"
+	relativepath="MyTest1Repository.rxrep">
+		<codegen
+		classname="MyTest1Repository"
+		namespace="MyTest1">
+		</codegen>
+		<rootfolder
+		id="6cbc1812-d83a-43af-8c6c-bb1ca5bfbb90"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Logout.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

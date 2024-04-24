@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>T1.3</name>
+    </assembly>
+    <members>
+        <member name="T:T3.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:T3.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the T3Repository repository.
+            </summary>
+        </member>
+        <member name="M:T3.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T3.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T3.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T3.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T3.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T3.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T3.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:T3.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the T3Repository repository.
+            </summary>
+        </member>
+        <member name="M:T3.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T3.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T3.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T3.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T3.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T3.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T3.LengthLimitEmail">
+             <summary>
+            The LengthLimitEmail recording.
+             </summary>
+        </member>
+        <member name="F:T3.LengthLimitEmail.repo">
+            <summary>
+            Holds an instance of the T3Repository repository.
+            </summary>
+        </member>
+        <member name="M:T3.LengthLimitEmail.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T3.LengthLimitEmail.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T3.LengthLimitEmail.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T3.LengthLimitEmail.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T3.LengthLimitEmail.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T3.LengthLimitEmail.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T3.T3Repository">
+            <summary>
+            The class representing the T3Repository element repository.
+            </summary>
+        </member>
+        <member name="P:T3.T3Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the T3Repository element repository.
+            </summary>
+        </member>
+        <member name="M:T3.T3Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:T3.T3Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T3.T3Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:T3.T3Repository.RegisterDropboxPersonalMicrosof">
+            <summary>
+            The RegisterDropboxPersonalMicrosof folder.
+            </summary>
+        </member>
+        <member name="T:T3.T3RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:T3.T3RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T3.T3RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:T3.T3RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T3.T3RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:T3.T3RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder">
+            <summary>
+            The RegisterDropboxPersonalMicrosofAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T3.T3RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RegisterDropboxPersonalMicrosof  folder.
+            </summary>
+        </member>
+        <member name="P:T3.T3RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T3.T3RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T3.T3RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.RegisterDropboxMicrosoftEdgePe">
+            <summary>
+            The RegisterDropboxMicrosoftEdgePe folder.
+            </summary>
+        </member>
+        <member name="T:T3.T3RepositoryFolders.RegisterDropboxMicrosoftEdgePeFolder">
+            <summary>
+            The RegisterDropboxMicrosoftEdgePeFolder folder.
+            </summary>
+        </member>
+        <member name="M:T3.T3RepositoryFolders.RegisterDropboxMicrosoftEdgePeFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RegisterDropboxMicrosoftEdgePe  folder.
+            </summary>
+        </member>
+        <member name="P:T3.T3RepositoryFolders.RegisterDropboxMicrosoftEdgePeFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T3.T3RepositoryFolders.RegisterDropboxMicrosoftEdgePeFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T3.T3RepositoryFolders.RegisterDropboxMicrosoftEdgePeFolder.Continue">
+            <summary>
+            The Continue item.
+            </summary>
+        </member>
+        <member name="P:T3.T3RepositoryFolders.RegisterDropboxMicrosoftEdgePeFolder.ContinueInfo">
+            <summary>
+            The Continue item info.
+            </summary>
+        </member>
+        <member name="P:T3.T3RepositoryFolders.RegisterDropboxMicrosoftEdgePeFolder.SusiEmail5097574413718853">
+            <summary>
+            The SusiEmail5097574413718853 item.
+            </summary>
+        </member>
+        <member name="P:T3.T3RepositoryFolders.RegisterDropboxMicrosoftEdgePeFolder.SusiEmail5097574413718853Info">
+            <summary>
+            The SusiEmail5097574413718853 item info.
+            </summary>
+        </member>
+        <member name="P:T3.T3RepositoryFolders.RegisterDropboxMicrosoftEdgePeFolder.InvalidEmail">
+            <summary>
+            The InvalidEmail item.
+            </summary>
+        </member>
+        <member name="P:T3.T3RepositoryFolders.RegisterDropboxMicrosoftEdgePeFolder.InvalidEmailInfo">
+            <summary>
+            The InvalidEmail item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,144 @@
+﻿<repository
+id="58abe448-c198-4621-b500-2ac9ed71c9a6"
+name="T21Repository">
+	<codegen
+	classname="T21Repository"
+	namespace="T21">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="c2bec75b-a956-4d53-aebd-693bb95c3de4"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="55cf15f9-47cc-4355-862f-9bba0ec14fca"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='www.dropbox.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="e98b41e2-32f2-4cde-b91f-a71839850474"
+		isrooted="True"
+		name="FilesDropboxPersonalMicrosoftE"
+		refimgid="0591c792-a5df-4d7a-b542-bc049d4a65f5"
+		refpath="/form[@title='Files - Dropbox - Personal - Microsoft​ Edge']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="combobox,uiautomation,uiautomationscrollitem,uiautomationvalue"
+			capname="combobox"
+			id="6fa6f01d-0b86-4de0-b4dc-c2b43f78f253"
+			name="SearchInFolderDropbox"
+			refimgid="7d5e32b2-fde2-4ede-a442-6125af6485c1"
+			robustPath=".//combobox[@name>'Search in folder “Dropbox']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Files - Dropbox - Personal']/container[@name&gt;'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container[@automationid&gt;'']/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='global-header-portal']/container[@name='Global header']/container[@classname='_search-input-portal-web-redesign_kxyvl_8']//combobox[@name&gt;'Search in folder &#8220;Dropbox']
+			</item>
+			<basepath>
+				/form[@title&gt;'Files - Dropbox - Personal']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAArxJREFUOE99kmtIU3EYxs/U0OZlWzGI+mAEfkmtWN6GC0xtEJpLLRNp
+aXShIEzyktjFbmima0ip0w8pEhRhVyLEMM82pzjdzbm8bQmhITVQtnlJN5/OtmOSlT94PxzO+/z+
+z7kQ/2OXtI2MkE8gQj6OyG4TdlZWv6ZvbUw0aQOP/IE98q9U2IJwxQgilEbs7dEiTkMiwfgO9Orf
+xJJziCJnwJNPU4IvCJePYLfCRM0g1UKLmH45EodeIs3chIBt7FA65oVPLiCWtFMCKyX4hkjFOHW6
+O2ygBRrEqDuRPPQMInMdxFPla03iySXwyXlsr+xCyOXn4BS/Aie/FWFvtLTAQAkGEKvuQLKxFZmW
+KuROFeKi9YxXwu/8icDCDwi+oQK7QostDwbBrdGDe78X3LK3HsE+lQpx6vc4ZGhE+tg95E7m48J0
+DgieTK0LKJGDeUuH4MoRsKrHwZFasLXWQkl0DubBU0Xc8nbwVO3g972AUC9F+nAJcszncXYyG0Ro
+0yT8r+ux+e4wmBWjCKoaA6vGDGZCmcNTj2a/sg2CvkYINXeQZixC9mge8iaOgfArM2DTTRP8bw/D
+t0EN3ycq+F9qgV9YUjGd9RCjaEC8SoKkvlKkas4hy3QC4rEjIBil+mWfhxowmrtBNPfAanfAjc3h
+cL8ghjfu/sQSCBTlSOwpQEq/GBk6ETIHhPMEESUuYDQrES46iQWHDU6nEysrK55xUUPnCX7XNQjk
+RUhSnsbh3uOIro6i/8yrj8gdT5Ww2e100FPAg/vau7QRsk+LRP1HuOjQekIymxCUIpmht3/DSZHQ
+cmFWgW9LN/Xsc54T1+MWhGTIwDpaD5boMdhptWCnShEsuKLzCih8WpQgZB1Ydnp7rIoWl5z/FAQd
+KFwLr/L5u9UTcrlcmJ2dxczcEgLT6yhB4x8Cep2GIH4B6KcJ9kDcU4EAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="f7b46108-9522-4a70-8be4-eabd311ca43b"
+		isrooted="True"
+		name="SearchResultsDropboxPersonalMi"
+		refpath="/form[@title='Search results - Dropbox - Personal - Microsoft​ Edge']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="combobox,uiautomation,uiautomationscrollitem,uiautomationvalue"
+			capname="combobox"
+			id="58b3bd49-b773-4cc4-b062-a01e56898c80"
+			name="SearchInFolderDropbox"
+			refimgid="9d05afb5-942a-47d4-bc74-313d334bb66d"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'Search results - Dropbox -']/container[@name&gt;'Search results - Dropbox -']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container[@automationid&gt;'']/text[@name='Search results - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='global-header-portal']/container[@name='Global header']/container[@classname='_search-input-portal-web-redesign_kxyvl_8']//combobox[@name&gt;'Search in folder &#8220;Dropbox']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationscrollitem"
+			capname="text"
+			id="ebccf98c-3dd6-4610-9549-648ab0a242d8"
+			name="NoResultsFound"
+			refimgid="2133b6ac-4d89-42c3-a496-b88aff272f82"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'Search results - Dropbox -']/container[@name&gt;'Search results - Dropbox -']//container[@classname='SidebarContentsSplitView']//container[@automationid&gt;'']/?/?/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='maestro-content-portal']/?/?/container[@classname='_search-view-container-web-redesign-without-section-component_7vhv8_3']/container[@automationid='search-view']/text[@name='No results found']/text[@name='No results found']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationscrollitem"
+			capname="unknown"
+			id="44397fba-a90c-4be4-8706-f6e62c1d5918"
+			name="Text1Result"
+			refimgid="fae0e546-cbae-43cf-8b07-0c45fe120058"
+			robustPath="/form[@title>'Search results - Dropbox -']//element[@classname='mc-table-row mc-table-head-row']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Search results - Dropbox -']/container[@name&gt;'Search results - Dropbox -']//container[@classname='SidebarContentsSplitView']//container/text[@name='Search results - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='maestro-content-portal']/?/?/container[@classname='_search-view-container-web-redesign-without-section-component_7vhv8_3']/container[@classname='_search__view_7vhv8_65 maestro-content-scroll maestro-content-scroll_scroll-disabled _search__view-web-redesign_7vhv8_78']/table[@classname='mc-table brws-files-view-list']/?/?/element[@classname='mc-table-row mc-table-head-row']
+			</item>
+			<basepath>
+				/form[@title&gt;'Search results - Dropbox -']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAArxJREFUOE99kmtIU3EYxs/U0OZlWzGI+mAEfkmtWN6GC0xtEJpLLRNp
+aXShIEzyktjFbmima0ip0w8pEhRhVyLEMM82pzjdzbm8bQmhITVQtnlJN5/OtmOSlT94PxzO+/z+
+z7kQ/2OXtI2MkE8gQj6OyG4TdlZWv6ZvbUw0aQOP/IE98q9U2IJwxQgilEbs7dEiTkMiwfgO9Orf
+xJJziCJnwJNPU4IvCJePYLfCRM0g1UKLmH45EodeIs3chIBt7FA65oVPLiCWtFMCKyX4hkjFOHW6
+O2ygBRrEqDuRPPQMInMdxFPla03iySXwyXlsr+xCyOXn4BS/Aie/FWFvtLTAQAkGEKvuQLKxFZmW
+KuROFeKi9YxXwu/8icDCDwi+oQK7QostDwbBrdGDe78X3LK3HsE+lQpx6vc4ZGhE+tg95E7m48J0
+DgieTK0LKJGDeUuH4MoRsKrHwZFasLXWQkl0DubBU0Xc8nbwVO3g972AUC9F+nAJcszncXYyG0Ro
+0yT8r+ux+e4wmBWjCKoaA6vGDGZCmcNTj2a/sg2CvkYINXeQZixC9mge8iaOgfArM2DTTRP8bw/D
+t0EN3ycq+F9qgV9YUjGd9RCjaEC8SoKkvlKkas4hy3QC4rEjIBil+mWfhxowmrtBNPfAanfAjc3h
+cL8ghjfu/sQSCBTlSOwpQEq/GBk6ETIHhPMEESUuYDQrES46iQWHDU6nEysrK55xUUPnCX7XNQjk
+RUhSnsbh3uOIro6i/8yrj8gdT5Ww2e100FPAg/vau7QRsk+LRP1HuOjQekIymxCUIpmht3/DSZHQ
+cmFWgW9LN/Xsc54T1+MWhGTIwDpaD5boMdhptWCnShEsuKLzCih8WpQgZB1Ydnp7rIoWl5z/FAQd
+KFwLr/L5u9UTcrlcmJ2dxczcEgLT6yhB4x8Cep2GIH4B6KcJ9kDcU4EAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

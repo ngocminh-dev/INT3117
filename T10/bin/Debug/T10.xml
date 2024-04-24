@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>T10</name>
+    </assembly>
+    <members>
+        <member name="T:T10.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:T10.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the T10Repository repository.
+            </summary>
+        </member>
+        <member name="M:T10.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T10.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T10.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T10.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T10.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T10.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T10.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:T10.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the T10Repository repository.
+            </summary>
+        </member>
+        <member name="M:T10.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T10.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T10.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T10.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T10.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T10.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T10.EmailRequire">
+             <summary>
+            The EmailRequire recording.
+             </summary>
+        </member>
+        <member name="F:T10.EmailRequire.repo">
+            <summary>
+            Holds an instance of the T10Repository repository.
+            </summary>
+        </member>
+        <member name="M:T10.EmailRequire.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T10.EmailRequire.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T10.EmailRequire.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T10.EmailRequire.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T10.EmailRequire.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T10.EmailRequire.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T10.T10Repository">
+            <summary>
+            The class representing the T10Repository element repository.
+            </summary>
+        </member>
+        <member name="P:T10.T10Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the T10Repository element repository.
+            </summary>
+        </member>
+        <member name="M:T10.T10Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:T10.T10Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T10.T10Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:T10.T10Repository.LoginDropboxPersonalMicrosoftE">
+            <summary>
+            The LoginDropboxPersonalMicrosoftE folder.
+            </summary>
+        </member>
+        <member name="T:T10.T10RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:T10.T10RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T10.T10RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:T10.T10RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T10.T10RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:T10.T10RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder">
+            <summary>
+            The LoginDropboxPersonalMicrosoftEAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T10.T10RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginDropboxPersonalMicrosoftE  folder.
+            </summary>
+        </member>
+        <member name="P:T10.T10RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T10.T10RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T10.T10RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder.SidebarContentsSplitView">
+            <summary>
+            The SidebarContentsSplitView folder.
+            </summary>
+        </member>
+        <member name="T:T10.T10RepositoryFolders.SidebarContentsSplitViewFolder">
+            <summary>
+            The SidebarContentsSplitViewFolder folder.
+            </summary>
+        </member>
+        <member name="M:T10.T10RepositoryFolders.SidebarContentsSplitViewFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SidebarContentsSplitView  folder.
+            </summary>
+        </member>
+        <member name="P:T10.T10RepositoryFolders.SidebarContentsSplitViewFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T10.T10RepositoryFolders.SidebarContentsSplitViewFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T10.T10RepositoryFolders.SidebarContentsSplitViewFolder.PleaseEnterAnEmailAddress">
+            <summary>
+            The PleaseEnterAnEmailAddress item.
+            </summary>
+        </member>
+        <member name="P:T10.T10RepositoryFolders.SidebarContentsSplitViewFolder.PleaseEnterAnEmailAddressInfo">
+            <summary>
+            The PleaseEnterAnEmailAddress item info.
+            </summary>
+        </member>
+        <member name="P:T10.T10RepositoryFolders.SidebarContentsSplitViewFolder.SusiEmail2141801686328677">
+            <summary>
+            The SusiEmail2141801686328677 item.
+            </summary>
+        </member>
+        <member name="P:T10.T10RepositoryFolders.SidebarContentsSplitViewFolder.SusiEmail2141801686328677Info">
+            <summary>
+            The SusiEmail2141801686328677 item info.
+            </summary>
+        </member>
+        <member name="P:T10.T10RepositoryFolders.SidebarContentsSplitViewFolder.Continue">
+            <summary>
+            The Continue item.
+            </summary>
+        </member>
+        <member name="P:T10.T10RepositoryFolders.SidebarContentsSplitViewFolder.ContinueInfo">
+            <summary>
+            The Continue item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

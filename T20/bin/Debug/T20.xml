@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>T20</name>
+    </assembly>
+    <members>
+        <member name="T:T20.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:T20.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the T20Repository repository.
+            </summary>
+        </member>
+        <member name="M:T20.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T20.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T20.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T20.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T20.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T20.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T20.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:T20.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the T20Repository repository.
+            </summary>
+        </member>
+        <member name="M:T20.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T20.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T20.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T20.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T20.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T20.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T20.SearchSmtNoExists">
+             <summary>
+            The SearchSmtNoExists recording.
+             </summary>
+        </member>
+        <member name="F:T20.SearchSmtNoExists.repo">
+            <summary>
+            Holds an instance of the T20Repository repository.
+            </summary>
+        </member>
+        <member name="M:T20.SearchSmtNoExists.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T20.SearchSmtNoExists.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T20.SearchSmtNoExists.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T20.SearchSmtNoExists.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T20.SearchSmtNoExists.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T20.SearchSmtNoExists.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T20.T20Repository">
+            <summary>
+            The class representing the T20Repository element repository.
+            </summary>
+        </member>
+        <member name="P:T20.T20Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the T20Repository element repository.
+            </summary>
+        </member>
+        <member name="M:T20.T20Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:T20.T20Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T20.T20Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:T20.T20Repository.FilesDropboxPersonalMicrosoftE">
+            <summary>
+            The FilesDropboxPersonalMicrosoftE folder.
+            </summary>
+        </member>
+        <member name="P:T20.T20Repository.SearchResultsDropboxPersonalMi">
+            <summary>
+            The SearchResultsDropboxPersonalMi folder.
+            </summary>
+        </member>
+        <member name="T:T20.T20RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:T20.T20RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T20.T20RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:T20.T20RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T20.T20RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:T20.T20RepositoryFolders.FilesDropboxPersonalMicrosoftEAppFolder">
+            <summary>
+            The FilesDropboxPersonalMicrosoftEAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T20.T20RepositoryFolders.FilesDropboxPersonalMicrosoftEAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FilesDropboxPersonalMicrosoftE  folder.
+            </summary>
+        </member>
+        <member name="P:T20.T20RepositoryFolders.FilesDropboxPersonalMicrosoftEAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T20.T20RepositoryFolders.FilesDropboxPersonalMicrosoftEAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T20.T20RepositoryFolders.FilesDropboxPersonalMicrosoftEAppFolder.SearchInFolderDropbox">
+            <summary>
+            The SearchInFolderDropbox item.
+            </summary>
+        </member>
+        <member name="P:T20.T20RepositoryFolders.FilesDropboxPersonalMicrosoftEAppFolder.SearchInFolderDropboxInfo">
+            <summary>
+            The SearchInFolderDropbox item info.
+            </summary>
+        </member>
+        <member name="T:T20.T20RepositoryFolders.SearchResultsDropboxPersonalMiAppFolder">
+            <summary>
+            The SearchResultsDropboxPersonalMiAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T20.T20RepositoryFolders.SearchResultsDropboxPersonalMiAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SearchResultsDropboxPersonalMi  folder.
+            </summary>
+        </member>
+        <member name="P:T20.T20RepositoryFolders.SearchResultsDropboxPersonalMiAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T20.T20RepositoryFolders.SearchResultsDropboxPersonalMiAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T20.T20RepositoryFolders.SearchResultsDropboxPersonalMiAppFolder.NoResultsFound">
+            <summary>
+            The NoResultsFound item.
+            </summary>
+        </member>
+        <member name="P:T20.T20RepositoryFolders.SearchResultsDropboxPersonalMiAppFolder.NoResultsFoundInfo">
+            <summary>
+            The NoResultsFound item info.
+            </summary>
+        </member>
+        <member name="P:T20.T20RepositoryFolders.SearchResultsDropboxPersonalMiAppFolder.SearchInFolderDropbox">
+            <summary>
+            The SearchInFolderDropbox item.
+            </summary>
+        </member>
+        <member name="P:T20.T20RepositoryFolders.SearchResultsDropboxPersonalMiAppFolder.SearchInFolderDropboxInfo">
+            <summary>
+            The SearchInFolderDropbox item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

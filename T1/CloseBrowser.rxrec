@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="697385b4-ffc9-4c5b-adc6-3bc8b9605c72"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="T1">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="9938e673-0f6f-4f25-b920-afacc8b2a165">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c09d9773-f258-4f87-9555-a139aad5e6fd"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title&gt;'Register - Dropbox - Personal']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="a0fa11b8-0ea1-45c3-9104-af61ef40b200"
+	name="T1Repository"
+	relativepath="T1Repository.rxrep">
+		<codegen
+		classname="T1Repository"
+		namespace="T1">
+		</codegen>
+		<rootfolder
+		id="f4cdbe9e-1fa8-4678-a1c4-1d14695327c5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

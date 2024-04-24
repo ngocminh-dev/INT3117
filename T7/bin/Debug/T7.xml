@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>T7</name>
+    </assembly>
+    <members>
+        <member name="T:T7.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:T7.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the T7Repository repository.
+            </summary>
+        </member>
+        <member name="M:T7.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T7.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T7.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T7.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T7.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T7.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T7.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:T7.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the T7Repository repository.
+            </summary>
+        </member>
+        <member name="M:T7.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T7.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T7.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T7.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T7.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T7.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T7.AppleIDLogin">
+             <summary>
+            The AppleIDLogin recording.
+             </summary>
+        </member>
+        <member name="F:T7.AppleIDLogin.repo">
+            <summary>
+            Holds an instance of the T7Repository repository.
+            </summary>
+        </member>
+        <member name="M:T7.AppleIDLogin.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T7.AppleIDLogin.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T7.AppleIDLogin.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T7.AppleIDLogin.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T7.AppleIDLogin.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T7.AppleIDLogin.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T7.T7Repository">
+            <summary>
+            The class representing the T7Repository element repository.
+            </summary>
+        </member>
+        <member name="P:T7.T7Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the T7Repository element repository.
+            </summary>
+        </member>
+        <member name="M:T7.T7Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:T7.T7Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T7.T7Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:T7.T7Repository.RegisterDropboxPersonalMicrosof">
+            <summary>
+            The RegisterDropboxPersonalMicrosof folder.
+            </summary>
+        </member>
+        <member name="P:T7.T7Repository.SignInWithAppleIDPersonalMicro">
+            <summary>
+            The SignInWithAppleIDPersonalMicro folder.
+            </summary>
+        </member>
+        <member name="T:T7.T7RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:T7.T7RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T7.T7RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:T7.T7RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T7.T7RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:T7.T7RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder">
+            <summary>
+            The RegisterDropboxPersonalMicrosofAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T7.T7RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RegisterDropboxPersonalMicrosof  folder.
+            </summary>
+        </member>
+        <member name="P:T7.T7RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T7.T7RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T7.T7RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.ContinueWithApple">
+            <summary>
+            The ContinueWithApple item.
+            </summary>
+        </member>
+        <member name="P:T7.T7RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.ContinueWithAppleInfo">
+            <summary>
+            The ContinueWithApple item info.
+            </summary>
+        </member>
+        <member name="T:T7.T7RepositoryFolders.SignInWithAppleIDPersonalMicroAppFolder">
+            <summary>
+            The SignInWithAppleIDPersonalMicroAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T7.T7RepositoryFolders.SignInWithAppleIDPersonalMicroAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SignInWithAppleIDPersonalMicro  folder.
+            </summary>
+        </member>
+        <member name="P:T7.T7RepositoryFolders.SignInWithAppleIDPersonalMicroAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T7.T7RepositoryFolders.SignInWithAppleIDPersonalMicroAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T7.T7RepositoryFolders.SignInWithAppleIDPersonalMicroAppFolder.UseYourAppleIDToSignInToDropbox">
+            <summary>
+            The UseYourAppleIDToSignInToDropbox item.
+            </summary>
+        </member>
+        <member name="P:T7.T7RepositoryFolders.SignInWithAppleIDPersonalMicroAppFolder.UseYourAppleIDToSignInToDropboxInfo">
+            <summary>
+            The UseYourAppleIDToSignInToDropbox item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

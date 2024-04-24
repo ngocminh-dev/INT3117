@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>T14</name>
+    </assembly>
+    <members>
+        <member name="T:T14.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:T14.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the T14Repository repository.
+            </summary>
+        </member>
+        <member name="M:T14.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T14.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T14.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T14.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T14.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T14.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T14.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:T14.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the T14Repository repository.
+            </summary>
+        </member>
+        <member name="M:T14.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T14.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T14.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T14.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T14.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T14.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T14.EmailExists">
+             <summary>
+            The EmailExists recording.
+             </summary>
+        </member>
+        <member name="F:T14.EmailExists.repo">
+            <summary>
+            Holds an instance of the T14Repository repository.
+            </summary>
+        </member>
+        <member name="M:T14.EmailExists.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T14.EmailExists.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T14.EmailExists.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T14.EmailExists.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T14.EmailExists.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T14.EmailExists.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T14.T14Repository">
+            <summary>
+            The class representing the T14Repository element repository.
+            </summary>
+        </member>
+        <member name="P:T14.T14Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the T14Repository element repository.
+            </summary>
+        </member>
+        <member name="M:T14.T14Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:T14.T14Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T14.T14Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:T14.T14Repository.LoginDropboxPersonalMicrosoftE">
+            <summary>
+            The LoginDropboxPersonalMicrosoftE folder.
+            </summary>
+        </member>
+        <member name="T:T14.T14RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:T14.T14RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T14.T14RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:T14.T14RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T14.T14RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:T14.T14RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder">
+            <summary>
+            The LoginDropboxPersonalMicrosoftEAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T14.T14RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginDropboxPersonalMicrosoftE  folder.
+            </summary>
+        </member>
+        <member name="P:T14.T14RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T14.T14RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T14.T14RepositoryFolders.LoginDropboxPersonalMicrosoftEAppFolder.SidebarContentsSplitView">
+            <summary>
+            The SidebarContentsSplitView folder.
+            </summary>
+        </member>
+        <member name="T:T14.T14RepositoryFolders.SidebarContentsSplitViewFolder">
+            <summary>
+            The SidebarContentsSplitViewFolder folder.
+            </summary>
+        </member>
+        <member name="M:T14.T14RepositoryFolders.SidebarContentsSplitViewFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SidebarContentsSplitView  folder.
+            </summary>
+        </member>
+        <member name="P:T14.T14RepositoryFolders.SidebarContentsSplitViewFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T14.T14RepositoryFolders.SidebarContentsSplitViewFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T14.T14RepositoryFolders.SidebarContentsSplitViewFolder.SusiEmail06620637371151306">
+            <summary>
+            The SusiEmail06620637371151306 item.
+            </summary>
+        </member>
+        <member name="P:T14.T14RepositoryFolders.SidebarContentsSplitViewFolder.SusiEmail06620637371151306Info">
+            <summary>
+            The SusiEmail06620637371151306 item info.
+            </summary>
+        </member>
+        <member name="P:T14.T14RepositoryFolders.SidebarContentsSplitViewFolder.WelcomeBack">
+            <summary>
+            The WelcomeBack item.
+            </summary>
+        </member>
+        <member name="P:T14.T14RepositoryFolders.SidebarContentsSplitViewFolder.WelcomeBackInfo">
+            <summary>
+            The WelcomeBack item info.
+            </summary>
+        </member>
+        <member name="P:T14.T14RepositoryFolders.SidebarContentsSplitViewFolder.Continue">
+            <summary>
+            The Continue item.
+            </summary>
+        </member>
+        <member name="P:T14.T14RepositoryFolders.SidebarContentsSplitViewFolder.ContinueInfo">
+            <summary>
+            The Continue item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

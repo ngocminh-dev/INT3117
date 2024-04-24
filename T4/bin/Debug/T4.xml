@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>T4</name>
+    </assembly>
+    <members>
+        <member name="T:T4.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:T4.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the T4Repository repository.
+            </summary>
+        </member>
+        <member name="M:T4.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T4.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T4.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T4.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T4.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T4.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T4.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:T4.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the T4Repository repository.
+            </summary>
+        </member>
+        <member name="M:T4.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T4.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T4.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T4.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T4.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T4.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T4.RemoveSpace">
+             <summary>
+            The RemoveSpace recording.
+             </summary>
+        </member>
+        <member name="F:T4.RemoveSpace.repo">
+            <summary>
+            Holds an instance of the T4Repository repository.
+            </summary>
+        </member>
+        <member name="M:T4.RemoveSpace.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T4.RemoveSpace.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T4.RemoveSpace.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T4.RemoveSpace.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T4.RemoveSpace.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T4.RemoveSpace.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T4.T4Repository">
+            <summary>
+            The class representing the T4Repository element repository.
+            </summary>
+        </member>
+        <member name="P:T4.T4Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the T4Repository element repository.
+            </summary>
+        </member>
+        <member name="M:T4.T4Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:T4.T4Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T4.T4Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:T4.T4Repository.RegisterDropboxPersonalMicrosof">
+            <summary>
+            The RegisterDropboxPersonalMicrosof folder.
+            </summary>
+        </member>
+        <member name="T:T4.T4RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:T4.T4RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T4.T4RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:T4.T4RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T4.T4RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:T4.T4RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder">
+            <summary>
+            The RegisterDropboxPersonalMicrosofAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T4.T4RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RegisterDropboxPersonalMicrosof  folder.
+            </summary>
+        </member>
+        <member name="P:T4.T4RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T4.T4RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T4.T4RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.LoginOrRegisterPageContent">
+            <summary>
+            The LoginOrRegisterPageContent folder.
+            </summary>
+        </member>
+        <member name="T:T4.T4RepositoryFolders.LoginOrRegisterPageContentFolder">
+            <summary>
+            The LoginOrRegisterPageContentFolder folder.
+            </summary>
+        </member>
+        <member name="M:T4.T4RepositoryFolders.LoginOrRegisterPageContentFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginOrRegisterPageContent  folder.
+            </summary>
+        </member>
+        <member name="P:T4.T4RepositoryFolders.LoginOrRegisterPageContentFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T4.T4RepositoryFolders.LoginOrRegisterPageContentFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T4.T4RepositoryFolders.LoginOrRegisterPageContentFolder.AgreeAndSignUp">
+            <summary>
+            The AgreeAndSignUp item.
+            </summary>
+        </member>
+        <member name="P:T4.T4RepositoryFolders.LoginOrRegisterPageContentFolder.AgreeAndSignUpInfo">
+            <summary>
+            The AgreeAndSignUp item info.
+            </summary>
+        </member>
+        <member name="P:T4.T4RepositoryFolders.LoginOrRegisterPageContentFolder.Continue">
+            <summary>
+            The Continue item.
+            </summary>
+        </member>
+        <member name="P:T4.T4RepositoryFolders.LoginOrRegisterPageContentFolder.ContinueInfo">
+            <summary>
+            The Continue item info.
+            </summary>
+        </member>
+        <member name="P:T4.T4RepositoryFolders.LoginOrRegisterPageContentFolder.SusiEmail6923959301162494">
+            <summary>
+            The SusiEmail6923959301162494 item.
+            </summary>
+        </member>
+        <member name="P:T4.T4RepositoryFolders.LoginOrRegisterPageContentFolder.SusiEmail6923959301162494Info">
+            <summary>
+            The SusiEmail6923959301162494 item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

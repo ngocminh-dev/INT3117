@@ -1,0 +1,179 @@
+﻿<repository
+id="9626d3f8-2a8a-4fa3-9c99-a393b7a01d51"
+name="T4_2Repository">
+	<codegen
+	classname="T4_2Repository"
+	namespace="T4._">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="a0d21317-8ebb-4bed-9e29-66a9ed47224d"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="efb1e215-49a1-4703-b6d1-7823be4f81bd"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='www.dropbox.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="7328e002-1bae-415d-9591-dfd258de37bf"
+		isrooted="True"
+		name="FilesDropboxPersonalMicrosoftE"
+		refpath="/form[@title='Files - Dropbox - Personal - Microsoft​ Edge']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			capname="container"
+			id="9240e62b-37e9-4a82-88c6-26900cd6fa0d"
+			isrooted="True"
+			name="SidebarContentsSplitView"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="menuitem,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+				capname="menuitem"
+				id="791f53e1-a021-4f63-aded-9df5c9c10795"
+				name="File"
+				refimgid="4fef6333-eecc-4d0b-9093-bcffb62c8cd6"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@title&gt;'Files - Dropbox - Personal']/container[@name&gt;'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@classname='dig-Layer']//menuitem[@name='File']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationscrollitem"
+				capname="button"
+				id="656e1cae-ead5-4419-9574-1d4aeee5c06c"
+				name="UploadOrDrop"
+				refimgid="0a85edc7-6e94-4537-ab5a-5f2d14534a29"
+				robustPath="/form[@title>'Files - Dropbox - Personal']//button[@name='Upload or Drop']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Files - Dropbox - Personal']/container[@name&gt;'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/?/?/container[@classname='SidebarContentsSplitView']/container[@orientation='None' and @iscontentelement='True']/?/?/container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='maestro-content-portal']//container[@classname='_browseActionBarWrapper_12ja8_4 _actionBarWrapper_cxckl_9 _actionBarWrapperIntersectionOnly_cxckl_36']//button[@name='Upload or Drop']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="bfd6cb88-5601-4a9e-a940-72a393be9ff2"
+				name="UploadedTo"
+				refimgid="08e74141-c83c-42fd-ad70-115f79ed43c3"
+				robustPath="/form[@title>'Files - Dropbox - Personal']//text[@name='Uploaded to']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Files - Dropbox - Personal']/container[@name&gt;'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/?/?/container[@classname='SidebarContentsSplitView']//container[@automationid&gt;'']/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[5]/?/?/container[@classname='_bottom-drawer-body_1a7qa_56']//text[@name='Uploaded to']
+				</item>
+				<basepath>
+					/form[@title&gt;'Files - Dropbox - Personal']/container[@name&gt;'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title&gt;'Files - Dropbox - Personal']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK8SURBVDhPfZJrSFNxGMbP1NDmZVsxiPpgBH5J
+rVjehgtMbRCaSy0TaWl0oSBM8pLYxW5opmtIqdMPKRIUYVcixDDPNqc43c25vG0JoSE1ULZ5STef
+zrZjkpU/eD8czvv8/s+5EP9jl7SNjJBPIEI+jshuE3ZWVr+mb21MNGkDj/yBPfKvVNiCcMUIIpRG
+7O3RIk5DIsH4DvTq38SSc4giZ8CTT1OCLwiXj2C3wkTNINVCi5h+ORKHXiLN3ISAbexQOuaFTy4g
+lrRTAisl+IZIxTh1ujtsoAUaxKg7kTz0DCJzHcRT5WtN4skl8Ml5bK/sQsjl5+AUvwInvxVhb7S0
+wEAJBhCr7kCysRWZlirkThXiovWMV8Lv/InAwg8IvqECu0KLLQ8Gwa3Rg3u/F9yytx7BPpUKcer3
+OGRoRPrYPeRO5uPCdA4InkytCyiRg3lLh+DKEbCqx8GRWrC11kJJdA7mwVNF3PJ28FTt4Pe9gFAv
+RfpwCXLM53F2MhtEaNMk/K/rsfnuMJgVowiqGgOrxgxmQpnDU49mv7INgr5GCDV3kGYsQvZoHvIm
+joHwKzNg000T/G8Pw7dBDd8nKvhfaoFfWFIxnfUQo2hAvEqCpL5SpGrOIct0AuKxIyAYpfpln4ca
+MJq7QTT3wGp3wI3N4XC/IIY37v7EEggU5UjsKUBKvxgZOhEyB4TzBBElLmA0KxEuOokFhw1OpxMr
+KyuecVFD5wl+1zUI5EVIUp7G4d7jiK6Oov/Mq4/IHU+VsNntdNBTwIP72ru0EbJPi0T9R7jo0HpC
+MpsQlCKZobd/w0mR0HJhVoFvSzf17HOeE9fjFoRkyMA6Wg+W6DHYabVgp0oRLLii8woofFqUIGQd
+WHZ6e6yKFpec/xQEHShcC6/y+bvVE3K5XJidncXM3BIC0+soQeMfAnqdhiB+AeinCfZA3FOBAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="bb4e7144-e7ef-4c54-8cec-2a135162bac8"
+		isrooted="True"
+		name="Open"
+		refpath="/form[@title='Open']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="tree,nativewindow"
+			capname="treeitem"
+			id="0477cf29-c245-4700-9ee8-f7cb9dca67f8"
+			name="Tree100"
+			refimgid="23e95304-ae0f-470e-9e0c-aa9aa9119396"
+			robustPath="/form[@title='Open']//tree[@controlid='100']/treeitem[@text='Desktop']/treeitem[@text='Desktop']"
+			searchtimeout="30000ms">
+				/form[@title='Open']/element[@class='DUIViewWndClassName']/container/element[1]/?/?/tree[@controlid='100']/?/?/treeitem[@text='Desktop']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="98fceae1-4617-42e0-95e1-539975716f3d"
+			name="ButtonOpen"
+			refimgid="19b5531f-f996-4862-8b43-91362c3cd43f"
+			refpath="/form[@title='Open']/button[@text='&amp;Open']"
+			robustPath="/form[@title='Open']/button[@text='&amp;Open']"
+			searchtimeout="30000ms">
+				/form[@title='Open']/button[@text='&amp;Open']
+			</item>
+			<item
+			addcaps="listitem,uiautomation,uiautomationinvoke,uiautomationscrollitem,uiautomationvalue"
+			capname="text"
+			id="def3edbc-c59f-46e6-b1ba-14e2f1d3971b"
+			name="ListItem2"
+			refimgid="06396e72-c57d-4270-8c62-0607e8f9d6b6"
+			robustPath="/form[@title='Open']//listitem[@automationid='2']/text[@automationid='System.ItemNameDisplay']"
+			searchtimeout="30000ms">
+				/form[@title='Open']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']/text[@automationid='System.ItemNameDisplay' and @uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']
+			</item>
+			<basepath>
+				/form[@title='Open']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK8SURBVDhPfZJrSFNxGMbP1NDmZVsxiPpgBH5J
+rVjehgtMbRCaSy0TaWl0oSBM8pLYxW5opmtIqdMPKRIUYVcixDDPNqc43c25vG0JoSE1ULZ5STef
+zrZjkpU/eD8czvv8/s+5EP9jl7SNjJBPIEI+jshuE3ZWVr+mb21MNGkDj/yBPfKvVNiCcMUIIpRG
+7O3RIk5DIsH4DvTq38SSc4giZ8CTT1OCLwiXj2C3wkTNINVCi5h+ORKHXiLN3ISAbexQOuaFTy4g
+lrRTAisl+IZIxTh1ujtsoAUaxKg7kTz0DCJzHcRT5WtN4skl8Ml5bK/sQsjl5+AUvwInvxVhb7S0
+wEAJBhCr7kCysRWZlirkThXiovWMV8Lv/InAwg8IvqECu0KLLQ8Gwa3Rg3u/F9yytx7BPpUKcer3
+OGRoRPrYPeRO5uPCdA4InkytCyiRg3lLh+DKEbCqx8GRWrC11kJJdA7mwVNF3PJ28FTt4Pe9gFAv
+RfpwCXLM53F2MhtEaNMk/K/rsfnuMJgVowiqGgOrxgxmQpnDU49mv7INgr5GCDV3kGYsQvZoHvIm
+joHwKzNg000T/G8Pw7dBDd8nKvhfaoFfWFIxnfUQo2hAvEqCpL5SpGrOIct0AuKxIyAYpfpln4ca
+MJq7QTT3wGp3wI3N4XC/IIY37v7EEggU5UjsKUBKvxgZOhEyB4TzBBElLmA0KxEuOokFhw1OpxMr
+KyuecVFD5wl+1zUI5EVIUp7G4d7jiK6Oov/Mq4/IHU+VsNntdNBTwIP72ru0EbJPi0T9R7jo0HpC
+MpsQlCKZobd/w0mR0HJhVoFvSzf17HOeE9fjFoRkyMA6Wg+W6DHYabVgp0oRLLii8woofFqUIGQd
+WHZ6e6yKFpec/xQEHShcC6/y+bvVE3K5XJidncXM3BIC0+soQeMfAnqdhiB+AeinCfZA3FOBAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

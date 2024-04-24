@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="13.85s"
+		durationms="13847"
+		type="root"
+		rid="a1a7ff5c2e74ec2"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="admin"
+		rxversion="11.3.0.0"
+		host="NGOC-MINH-NITRO"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/23/2024 2:31:34 PM"
+		timestampiso="2024-04-23T07:31:34"
+		endtime="4/23/2024 2:31:48 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CloseBrowser">
+		<detail>
+			CloseBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.489"
+			timeRelativeToTestModuleStartTime="00:03.489"
+			timeWallClock="14:31:37"
+			time="00:03.489"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'ApplicationUnderTest'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.dropbox.com']"
+				itempath="/dom[@domain='www.dropbox.com']"
+				fullname="T1Repository.ApplicationUnderTest.Self"
+				id="c20253aa38954fa482938e563f52710d"
+				timeout="30000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T1\CloseBrowser.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.844"
+			timeRelativeToTestModuleStartTime="00:13.844"
+			timeWallClock="14:31:48"
+			time="00:13.844"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

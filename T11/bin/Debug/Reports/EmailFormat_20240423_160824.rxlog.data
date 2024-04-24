@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="13.9s"
+		durationms="13901"
+		type="root"
+		rid="30308af8ced38fa"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="admin"
+		rxversion="11.3.0.0"
+		host="NGOC-MINH-NITRO"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/23/2024 4:08:25 PM"
+		timestampiso="2024-04-23T09:08:25"
+		endtime="4/23/2024 4:08:39 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="EmailFormat">
+		<detail>
+			EmailFormat
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.621"
+			timeRelativeToTestModuleStartTime="00:03.621"
+			timeWallClock="16:08:29"
+			time="00:03.621"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginDropboxPersonalMicrosoftE.SidebarContentsSplitView.SusiEmail7963721265662178' at 81;26.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Login - Dropbox - Personal']/container[@name>'Login - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//container[@classname='_field-input-wrapper_4srl7_50']/text[@automationid~'susi_email']"
+				itempath=".//container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//container[@classname='_field-input-wrapper_4srl7_50']/text[@automationid~'susi_email']"
+				fullname="T11Repository.LoginDropboxPersonalMicrosoftE.SidebarContentsSplitView.SusiEmail7963721265662178"
+				id="c4130c15322d4d5ba985415de5a33704"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T11\EmailFormat.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.506"
+			timeRelativeToTestModuleStartTime="00:07.506"
+			timeWallClock="16:08:33"
+			time="00:07.506"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'ajskdgjsdgajsk2@@ashdsa.com' with focus on 'LoginDropboxPersonalMicrosoftE.SidebarContentsSplitView.SusiEmail7963721265662178'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Login - Dropbox - Personal']/container[@name>'Login - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//container[@classname='_field-input-wrapper_4srl7_50']/text[@automationid~'susi_email']"
+				itempath=".//container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//container[@classname='_field-input-wrapper_4srl7_50']/text[@automationid~'susi_email']"
+				fullname="T11Repository.LoginDropboxPersonalMicrosoftE.SidebarContentsSplitView.SusiEmail7963721265662178"
+				id="c4130c15322d4d5ba985415de5a33704"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T11\EmailFormat.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.409"
+			timeRelativeToTestModuleStartTime="00:10.409"
+			timeWallClock="16:08:36"
+			time="00:10.409"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginDropboxPersonalMicrosoftE.SidebarContentsSplitView.Continue' at 24;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Login - Dropbox - Personal']/container[@name>'Login - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SplitWindowContainerView']/?/?/container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//button[@name='Continue']/?/?/text[@name='Continue']"
+				itempath="container[@classname='SplitWindowContainerView']/?/?/container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//button[@name='Continue']/?/?/text[@name='Continue']"
+				fullname="T11Repository.LoginDropboxPersonalMicrosoftE.SidebarContentsSplitView.Continue"
+				id="4c50796bc5a744a2ac388e239474dbe4"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T11\EmailFormat.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.296"
+			timeRelativeToTestModuleStartTime="00:12.296"
+			timeWallClock="16:08:38"
+			time="00:12.296"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'LoginDropboxPersonalMicrosoftE.SidebarContentsSplitView.AnEmailAddressMustContainASingleA'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Login - Dropbox - Personal']/container[@name>'Login - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//container/text[@name>'']"
+				itempath=".//container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//container/text[@name>'']"
+				fullname="T11Repository.LoginDropboxPersonalMicrosoftE.SidebarContentsSplitView.AnEmailAddressMustContainASingleA"
+				id="52adeeee39444446b8df90796cfb5bd9"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T11\EmailFormat.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.792"
+			timeRelativeToTestModuleStartTime="00:13.792"
+			timeWallClock="16:08:39"
+			time="00:13.792"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'AnEmailAddressMustContainASingleA' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Login - Dropbox - Personal']/container[@name>'Login - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//container/text[@name>'']"
+				itempath=".//container/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//container/text[@name>'']"
+				fullname="T11Repository.LoginDropboxPersonalMicrosoftE.SidebarContentsSplitView.AnEmailAddressMustContainASingleA"
+				id="52adeeee39444446b8df90796cfb5bd9"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T11\EmailFormat.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

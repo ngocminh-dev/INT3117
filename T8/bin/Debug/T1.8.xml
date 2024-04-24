@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>T1.8</name>
+    </assembly>
+    <members>
+        <member name="T:T8.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:T8.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the T8Repository repository.
+            </summary>
+        </member>
+        <member name="M:T8.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T8.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T8.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T8.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T8.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T8.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T8.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:T8.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the T8Repository repository.
+            </summary>
+        </member>
+        <member name="M:T8.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T8.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T8.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T8.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T8.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T8.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T8.PasswordRequire">
+             <summary>
+            The PasswordRequire recording.
+             </summary>
+        </member>
+        <member name="F:T8.PasswordRequire.repo">
+            <summary>
+            Holds an instance of the T8Repository repository.
+            </summary>
+        </member>
+        <member name="M:T8.PasswordRequire.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:T8.PasswordRequire.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:T8.PasswordRequire.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:T8.PasswordRequire.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:T8.PasswordRequire.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:T8.PasswordRequire.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:T8.T8Repository">
+            <summary>
+            The class representing the T8Repository element repository.
+            </summary>
+        </member>
+        <member name="P:T8.T8Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the T8Repository element repository.
+            </summary>
+        </member>
+        <member name="M:T8.T8Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:T8.T8Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T8.T8Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:T8.T8Repository.RegisterDropboxPersonalMicrosof">
+            <summary>
+            The RegisterDropboxPersonalMicrosof folder.
+            </summary>
+        </member>
+        <member name="T:T8.T8RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:T8.T8RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T8.T8RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:T8.T8RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T8.T8RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:T8.T8RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder">
+            <summary>
+            The RegisterDropboxPersonalMicrosofAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:T8.T8RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RegisterDropboxPersonalMicrosof  folder.
+            </summary>
+        </member>
+        <member name="P:T8.T8RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T8.T8RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T8.T8RepositoryFolders.RegisterDropboxPersonalMicrosofAppFolder.SidebarContentsSplitView">
+            <summary>
+            The SidebarContentsSplitView folder.
+            </summary>
+        </member>
+        <member name="T:T8.T8RepositoryFolders.SidebarContentsSplitViewFolder">
+            <summary>
+            The SidebarContentsSplitViewFolder folder.
+            </summary>
+        </member>
+        <member name="M:T8.T8RepositoryFolders.SidebarContentsSplitViewFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SidebarContentsSplitView  folder.
+            </summary>
+        </member>
+        <member name="P:T8.T8RepositoryFolders.SidebarContentsSplitViewFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:T8.T8RepositoryFolders.SidebarContentsSplitViewFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:T8.T8RepositoryFolders.SidebarContentsSplitViewFolder.LoginOrRegisterPageContent">
+            <summary>
+            The LoginOrRegisterPageContent item.
+            </summary>
+        </member>
+        <member name="P:T8.T8RepositoryFolders.SidebarContentsSplitViewFolder.LoginOrRegisterPageContentInfo">
+            <summary>
+            The LoginOrRegisterPageContent item info.
+            </summary>
+        </member>
+        <member name="P:T8.T8RepositoryFolders.SidebarContentsSplitViewFolder.PleaseEnterAPassword">
+            <summary>
+            The PleaseEnterAPassword item.
+            </summary>
+        </member>
+        <member name="P:T8.T8RepositoryFolders.SidebarContentsSplitViewFolder.PleaseEnterAPasswordInfo">
+            <summary>
+            The PleaseEnterAPassword item info.
+            </summary>
+        </member>
+        <member name="P:T8.T8RepositoryFolders.SidebarContentsSplitViewFolder.AgreeAndSignUp">
+            <summary>
+            The AgreeAndSignUp item.
+            </summary>
+        </member>
+        <member name="P:T8.T8RepositoryFolders.SidebarContentsSplitViewFolder.AgreeAndSignUpInfo">
+            <summary>
+            The AgreeAndSignUp item info.
+            </summary>
+        </member>
+        <member name="P:T8.T8RepositoryFolders.SidebarContentsSplitViewFolder.Continue">
+            <summary>
+            The Continue item.
+            </summary>
+        </member>
+        <member name="P:T8.T8RepositoryFolders.SidebarContentsSplitViewFolder.ContinueInfo">
+            <summary>
+            The Continue item info.
+            </summary>
+        </member>
+        <member name="P:T8.T8RepositoryFolders.SidebarContentsSplitViewFolder.SusiEmail2945891388041464">
+            <summary>
+            The SusiEmail2945891388041464 item.
+            </summary>
+        </member>
+        <member name="P:T8.T8RepositoryFolders.SidebarContentsSplitViewFolder.SusiEmail2945891388041464Info">
+            <summary>
+            The SusiEmail2945891388041464 item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="562e3e51-067e-4c19-af25-51c15e61a80a"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="T12">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="bc5c4927-b3be-4dad-b09c-d01807681f31">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="872c0831-ac28-402c-89ae-a4046a67da8d"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="1"
+				prefcap="form"
+				rect="962,10,974,1020"
+				role="form"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="active"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="appicon"
+					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						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
+					</attribute>
+					<attribute
+					name="state"
+					type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Normal
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Login - Dropbox - Personal - Microsoft​ Edge
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Chrome_WidgetWin_1
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						3868906
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						1
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						5772
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						msedge
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, WindowEdge
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, TiledWindow, ClipChildren, ClipSiblings, Visible
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						Login - Dropbox - Personal - Microsoft​ Edge
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title&gt;'Login - Dropbox - Personal']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="96e3b706-cb78-4cec-96f6-fc41376ccfbd"
+	name="T12Repository"
+	relativepath="T12Repository.rxrep">
+		<codegen
+		classname="T12Repository"
+		namespace="T12">
+		</codegen>
+		<rootfolder
+		id="40f8059f-2da5-42b1-baa8-c56d50485143"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,12 @@
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T11\bin\Debug\T11.rxtmg
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T11\bin\Debug\T11.rxtst
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T11\bin\Debug\T11.exe.config
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T11\bin\Debug\T11.xml
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T11\bin\Debug\T11.exe
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T11\bin\Debug\T11.pdb
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T11\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T11\obj\x86\Debug\T11.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T11\obj\x86\Debug\T11.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T11\obj\x86\Debug\T11.csproj.CopyComplete
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T11\obj\x86\Debug\T11.exe
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T11\obj\x86\Debug\T11.pdb

@@ -1,0 +1,12 @@
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T16\bin\Debug\T16.rxtmg
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T16\bin\Debug\T16.rxtst
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T16\bin\Debug\T16.exe.config
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T16\bin\Debug\T16.xml
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T16\bin\Debug\T16.exe
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T16\bin\Debug\T16.pdb
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T16\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T16\obj\x86\Debug\T16.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T16\obj\x86\Debug\T16.csproj.CopyComplete
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T16\obj\x86\Debug\T16.exe
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T16\obj\x86\Debug\T16.pdb
+C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T16\obj\x86\Debug\T16.csproj.AssemblyReference.cache

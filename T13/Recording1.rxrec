@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e4f3ee29-0c54-46ae-944c-baa92ac89f3c"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="T13">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="45782bae-b8b3-4dcc-9e75-df81aa94867d"
+	name="T13Repository"
+	relativepath="T13Repository.rxrep">
+		<codegen
+		classname="T13Repository"
+		namespace="T13">
+		</codegen>
+		<rootfolder
+		id="d727ecf1-cc6b-467c-b9ae-02f4bc177271"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

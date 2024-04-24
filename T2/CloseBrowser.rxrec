@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="42fcc21b-e1ed-46ff-b493-2b49923034fe"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="T2">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="c86af340-bb47-4932-9adb-c8cd1c8af252">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="db4a7a4f-6fd2-43e3-aa55-3f26119fdd80"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='msedge']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="7d45ccfa-b2ac-48c7-a484-946242cc24c4"
+	name="T2Repository"
+	relativepath="T2Repository.rxrep">
+		<codegen
+		classname="T2Repository"
+		namespace="T2">
+		</codegen>
+		<rootfolder
+		id="46dbe569-f673-4af4-ada3-4831ee3438ed"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

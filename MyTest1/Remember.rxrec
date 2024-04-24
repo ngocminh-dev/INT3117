@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="9883078d-3746-4722-91c2-920154a4212b"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Remember"
+	namespace="MyTest1">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="11;11"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="9f447d8e-465e-4961-976b-c861a35d001d"
+		sx="1268"
+		sy="584"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e778fff7-6a98-42e3-b540-808979c2411a"
+			sourcename="Recorder">
+				<element
+				capabilities="uiautomation, uiautomationscrollitem, uiautomationtoggle, uiautomationvalue"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="4"
+				prefcap="checkbox"
+				rect="1257,573,21,21"
+				role="checkbox"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="checkstate"
+					type="System.Windows.Forms.CheckState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Checked
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Remember me
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						remember_me03138055497110104
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						dig-Checkbox-input dig-Checkbox--initiallyChecked
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						CheckBox
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						Chrome
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						check box
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Remember me
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAComWrapper, Version=1.1.0.14, Culture=neutral, PublicKeyToken=78cbcf77433a85e5">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						5780
+					</attribute>
+					<attribute
+					name="uiautomationtoggletogglestate"
+					type="System.Windows.Automation.ToggleState, UIAComWrapper, Version=1.1.0.14, Culture=neutral, PublicKeyToken=78cbcf77433a85e5">
+						On
+					</attribute>
+					<attribute
+					name="uiautomationvalueisreadonly"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="uiautomationvaluevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'Login - Dropbox - Personal']/container[@name&gt;'Login - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container[@automationid='72964976']/text[@name='Login - Dropbox']/?/?/container[@automationid='root']/container[@automationid='page-content']/container[@automationid='login-or-register-page-content']//checkbox[@automationid='remember_me03138055497110104']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="b32ff1fa-d413-4ce0-b433-13404d00035c">
+				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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="5956f0bf-4798-4720-bd2e-e494ee1fd6fd"
+	name="MyTest1Repository"
+	relativepath="MyTest1Repository.rxrep">
+		<codegen
+		classname="MyTest1Repository"
+		namespace="MyTest1">
+		</codegen>
+		<rootfolder
+		id="6cbc1812-d83a-43af-8c6c-bb1ca5bfbb90"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Remember.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

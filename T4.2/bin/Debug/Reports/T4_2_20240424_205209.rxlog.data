@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.8m"
+		durationms="107326"
+		type="root"
+		rid="142d6b77467e2a38"
+		totalerrorcount="2"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="admin"
+		rxversion="11.3.0.0"
+		host="NGOC-MINH-NITRO"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/24/2024 8:52:09 PM"
+		timestampiso="2024-04-24T13:52:09"
+		endtime="4/24/2024 8:53:56 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.7m"
+			durationms="103949"
+			type="test-suite"
+			rid="5ede82a2cfedc20"
+			totalerrorcount="2"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="T4.2"
+			headertext="T4.2"
+			runconfigname="TestRun"
+			runlabel=""
+			reportdescription="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="1.7m"
+				durationms="103907"
+				type="test-case"
+				rid="31d285adaf0dc7d"
+				totalerrorcount="2"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="2"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="46a46910-22da-4c86-a3ee-691059d1ac29"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="375ms"
+					durationms="375"
+					type="setup-container"
+					rid="1aeca348c5e9342"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="362ms"
+						durationms="362"
+						type="test-module"
+						rid="1254e9edd77c9a51"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="OpenBrowser"
+						displayName="OpenBrowser"
+						moduleid="042d30eb-a88d-4c1d-b433-b7a2e2b89e8b"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.056"
+							timeRelativeToTestModuleStartTime="00:00.008"
+							timeWallClock="20:52:12"
+							time="00:00.056"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'https://www.dropbox.com/home' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\OpenBrowser.cs"
+								codeline="82"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="1.7m"
+					durationms="103489"
+					type="test-module"
+					rid="caf8258f2a897d1"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="UploadSmt"
+					displayName="UploadSmt"
+					moduleid="7c7f1dfa-45b3-49d6-893a-cff715db12af"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Element for item 'ContainerUploadStatusContent1f8jm40' does not exist (Failed to find item 'T4_2Repository.FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.ContainerUploadStatusContent1f8jm40'. Please check that your whitelist allows Ranorex to access the process. No element found for path 'container[@name&gt;'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[5]/?/?/container[@classname='_upload-status-content-wrapper_1f8jm_40']/container[@classname='_upload-status-content_1f8jm_40 _upload-color--complete_1f8jm_85']' at step 'container[@classname='_upload-status-content_1f8jm_40 _upload-color--complete_1f8jm_85']' after 24 attempts within 1m.).
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.415"
+						timeRelativeToTestModuleStartTime="00:00.003"
+						timeWallClock="20:52:12"
+						time="00:00.415"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.UploadOrDrop' at 69;34.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Files - Dropbox - Personal']/container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/?/?/container[@classname='SidebarContentsSplitView']/container[@orientation='None' and @iscontentelement='True']/?/?/container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='maestro-content-portal']//container[@classname='_browseActionBarWrapper_12ja8_4 _actionBarWrapper_cxckl_9 _actionBarWrapperIntersectionOnly_cxckl_36']//button[@name='Upload or Drop']"
+							itempath="container[@classname='SidebarContentsSplitView']/?/?/container[@classname='SidebarContentsSplitView']/container[@orientation='None' and @iscontentelement='True']/?/?/container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@automationid='maestro-portal']/container[@automationid='maestro-content-portal']//container[@classname='_browseActionBarWrapper_12ja8_4 _actionBarWrapper_cxckl_9 _actionBarWrapperIntersectionOnly_cxckl_36']//button[@name='Upload or Drop']"
+							fullname="T4_2Repository.FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.UploadOrDrop"
+							id="656e1caeead5441995741d4aeee5c06c"
+							timeout="90000"
+							codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.570"
+						timeRelativeToTestModuleStartTime="00:09.157"
+						timeWallClock="20:52:21"
+						time="00:09.570"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.File' at 47;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Files - Dropbox - Personal']/container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@classname='dig-Layer']//menuitem[@name='File']"
+							itempath="container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[@classname='dig-Layer']//menuitem[@name='File']"
+							fullname="T4_2Repository.FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.File"
+							id="791f53e1a0214f63aded9df5c9c10795"
+							timeout="90000"
+							codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.016"
+						timeRelativeToTestModuleStartTime="00:11.604"
+						timeWallClock="20:52:24"
+						time="00:12.016"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Open.Tree100' at 26;18.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Open']/element[@class='DUIViewWndClassName']/container/element[1]/?/?/tree[@controlid='100']/?/?/treeitem[@text='Desktop']"
+							itempath="element[@class='DUIViewWndClassName']/container/element[1]/?/?/tree[@controlid='100']/?/?/treeitem[@text='Desktop']"
+							fullname="T4_2Repository.Open.Tree100"
+							id="0477cf29c24547009ee8f7cb9dca67f8"
+							timeout="60000"
+							codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.012"
+						timeRelativeToTestModuleStartTime="00:12.600"
+						timeWallClock="20:52:25"
+						time="00:13.012"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Open.ListItem2' at 43;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Open']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']/text[@automationid='System.ItemNameDisplay' and @uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']"
+							itempath="element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']/text[@automationid='System.ItemNameDisplay' and @uiautomationvaluevalue='2102357 - Nguyen Doan Ngoc Minh']"
+							fullname="T4_2Repository.Open.ListItem2"
+							id="def3edbcc59f46e6b1ba14e2f1d3971b"
+							timeout="60000"
+							codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.129"
+						timeRelativeToTestModuleStartTime="00:13.716"
+						timeWallClock="20:52:26"
+						time="00:14.129"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Open.ButtonOpen' at 38;17.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Open']/button[@text='&amp;Open']"
+							itempath="button[@text='&amp;Open']"
+							fullname="T4_2Repository.Open.ButtonOpen"
+							id="98fceae1461742e095e1539975716f3d"
+							timeout="60000"
+							codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.646"
+						timeRelativeToTestModuleStartTime="00:14.233"
+						timeWallClock="20:52:26"
+						time="00:14.646"
+						level="Info"
+						category="Validation"
+						errimg="images_T4_2_202_b4b9063f\T4_2_202_b4b9063f_9a88d590_trace.jpg"
+						errthumb="images_T4_2_202_b4b9063f\T4_2_202_b4b9063f_9a88d590_trace_thumb.jpg">
+						<message>
+							Validating Exists on item 'FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.ContainerUploadStatusContent1f8jm40'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Files - Dropbox - Personal']/container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[5]/?/?/container[@classname='_upload-status-content-wrapper_1f8jm_40']/container[@classname='_upload-status-content_1f8jm_40 _upload-color--complete_1f8jm_85']"
+							itempath=".//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[5]/?/?/container[@classname='_upload-status-content-wrapper_1f8jm_40']/container[@classname='_upload-status-content_1f8jm_40 _upload-color--complete_1f8jm_85']"
+							fullname="T4_2Repository.FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.ContainerUploadStatusContent1f8jm40"
+							id="5399f36d2be4430abdf5119f0b656a35"
+							timeout="90000"
+							codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:31.620"
+						timeRelativeToTestModuleStartTime="01:31.208"
+						timeWallClock="20:53:43"
+						time="01:31.620"
+						level="Failure"
+						category="Validation"
+						errimg="images_T4_2_202_b4b9063f\T4_2_202_b4b9063f_5d045a69_trace.jpg"
+						errthumb="images_T4_2_202_b4b9063f\T4_2_202_b4b9063f_5d045a69_trace_thumb.jpg">
+						<message>
+							Element for item 'ContainerUploadStatusContent1f8jm40' does not exist (Failed to find item 'T4_2Repository.FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.ContainerUploadStatusContent1f8jm40'. Please check that your whitelist allows Ranorex to access the process. No element found for path 'container[@name&gt;'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[5]/?/?/container[@classname='_upload-status-content-wrapper_1f8jm_40']/container[@classname='_upload-status-content_1f8jm_40 _upload-color--complete_1f8jm_85']' at step 'container[@classname='_upload-status-content_1f8jm_40 _upload-color--complete_1f8jm_85']' after 24 attempts within 1m.).
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Files - Dropbox - Personal']/container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[5]/?/?/container[@classname='_upload-status-content-wrapper_1f8jm_40']/container[@classname='_upload-status-content_1f8jm_40 _upload-color--complete_1f8jm_85']"
+							itempath=".//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[5]/?/?/container[@classname='_upload-status-content-wrapper_1f8jm_40']/container[@classname='_upload-status-content_1f8jm_40 _upload-color--complete_1f8jm_85']"
+							fullname="T4_2Repository.FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.ContainerUploadStatusContent1f8jm40"
+							id="5399f36d2be4430abdf5119f0b656a35"
+							timeout="90000"
+							codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+							codeline="103"
+							failedStep="container[@classname='_upload-status-content_1f8jm_40 _upload-color--complete_1f8jm_85']"
+							bestPathPrefix="container[@name>'Files - Dropbox - Microsoft']/descendant-or-self::container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']/descendant-or-self::container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[5]/?/?/container[@classname='_upload-status-content-wrapper_1f8jm_40']"
+							loglvl="Failure"
+							itemindex="5">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:31.728"
+						timeRelativeToTestModuleStartTime="01:31.315"
+						timeWallClock="20:53:43"
+						time="01:31.728"
+						level="Error"
+						category="Module">
+						<message>
+							The test run has been aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:43.825"
+						timeRelativeToTestModuleStartTime="01:43.413"
+						timeWallClock="20:53:56"
+						time="01:43.825"
+						level="Error"
+						category="Module"
+						errimg="images_T4_2_202_b4b9063f\T4_2_202_b4b9063f_191acab7_trace.jpg"
+						errthumb="images_T4_2_202_b4b9063f\T4_2_202_b4b9063f_191acab7_trace_thumb.jpg">
+						<message>
+							Module execution was aborted because a validation step has failed. Element for item 'ContainerUploadStatusContent1f8jm40' does not exist (Failed to find item 'T4_2Repository.FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.ContainerUploadStatusContent1f8jm40'. Please check that your whitelist allows Ranorex to access the process. No element found for path 'container[@name&gt;'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[5]/?/?/container[@classname='_upload-status-content-wrapper_1f8jm_40']/container[@classname='_upload-status-content_1f8jm_40 _upload-color--complete_1f8jm_85']' at step 'container[@classname='_upload-status-content_1f8jm_40 _upload-color--complete_1f8jm_85']' after 24 attempts within 1m.).<br/>Failed to find item 'T4_2Repository.FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.ContainerUploadStatusContent1f8jm40'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path 'container[@name&gt;'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[5]/?/?/container[@classname='_upload-status-content-wrapper_1f8jm_40']/container[@classname='_upload-status-content_1f8jm_40 _upload-color--complete_1f8jm_85']' at step 'container[@classname='_upload-status-content_1f8jm_40 _upload-color--complete_1f8jm_85']' after 24 attempts within 1m.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.Exists(RepoItemInfo itemInfo, String message, Options options)
+   at Ranorex.Validate.Exists(RepoItemInfo itemInfo)
+   at T4._.UploadSmt.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs:line 103
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\UploadSmt.cs"
+							codeline="103"
+							type="repoitem"
+							path="/form[@title>'Files - Dropbox - Personal']/container[@name>'Files - Dropbox - Microsoft']//container[@classname='BrowserView']/container[@classname='SidebarContentsSplitView']//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[5]/?/?/container[@classname='_upload-status-content-wrapper_1f8jm_40']/container[@classname='_upload-status-content_1f8jm_40 _upload-color--complete_1f8jm_85']"
+							itempath=".//container/text[@name='Files - Dropbox']/container[@classname='global-header--portaled']/container[5]/?/?/container[@classname='_upload-status-content-wrapper_1f8jm_40']/container[@classname='_upload-status-content_1f8jm_40 _upload-color--complete_1f8jm_85']"
+							fullname="T4_2Repository.FilesDropboxPersonalMicrosoftE.SidebarContentsSplitView.ContainerUploadStatusContent1f8jm40"
+							id="5399f36d2be4430abdf5119f0b656a35"
+							timeout="90000"
+							loglvl="Error"
+							itemindex="5">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="35ms"
+					durationms="35"
+					type="teardown-container"
+					rid="1331c8b80d44071a"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="35ms"
+						durationms="35"
+						type="test-module"
+						rid="135f1481af6340"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="CloseBrowser"
+						displayName="CloseBrowser"
+						moduleid="42df8de7-b807-4119-8348-0d6cb3dc6993"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:43.906"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="20:53:56"
+							time="01:43.906"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'FilesDropboxPersonalMicrosoftE'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title>'Files - Dropbox - Personal']"
+								itempath="/form[@title>'Files - Dropbox - Personal']"
+								fullname="T4_2Repository.FilesDropboxPersonalMicrosoftE.Self"
+								id="7328e0021bae415d9591dfd258de37bf"
+								timeout="30000"
+								codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\T4.2\CloseBrowser.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>
