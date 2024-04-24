@@ -6,9 +6,11 @@
   <Array name="files" />
   <SerializedValue name="ModuleBrowserState">
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{5D6B74D7-8D82-449A-B1A3-34447B5E9E2B}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution MyTest1[T4.2[]]]&#xD;&#xA;Solution MyTest1\T4.2\T4.2.rxtst&#xD;&#xA;Solution MyTest1\T4.2\References" />
-  <StartupProject value="{A169C774-8F29-4023-A638-5F12984E52E7}" />
+  <ProjectBrowserState value="[Solution Test[T1.1[]]]&#xD;&#xA;Solution Test\T4.2&#xD;&#xA;Solution Test\T1.7" />
+  <StartupProject value="{5D6B74D7-8D82-449A-B1A3-34447B5E9E2B}" />
 </Properties>
